@@ -60,6 +60,11 @@ max flavor error = 0.6110760482679778 %
 
 The older microphysical-closure package is included under `historical/phaseB-microphysical-closure-v0.1.0/`. It is **not required** to reproduce v1.7.0 and should not be interpreted as a second current model. It is retained because it records the earlier post-hoc/partial-closure stage and makes the progression to Phase B2 auditable.
 
+### Publication identifiers
+
+- GitHub repository: https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor
+- Zenodo DOI: https://doi.org/10.5281/zenodo.22059294
+
 ### License
 
 See `LICENSE`. The retained project license allows inspection and noncommercial scholarly reproduction with attribution and reserves redistribution/commercial use unless permission is granted.

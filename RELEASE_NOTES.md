@@ -1,5 +1,10 @@
 # v1.4.0
 
+Publication identifiers:
+- GitHub: https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor
+- Zenodo DOI: https://doi.org/10.5281/zenodo.22059294
+
+
 - Added absolute-amplitude closure for the protected 21 mediator kernel.
 - Identified one shared attenuation across `c_d1`, `a_d0`, and `a_d1` with only 0.042% relative span.
 - Added the frozen multiplicity-normalized formulas:

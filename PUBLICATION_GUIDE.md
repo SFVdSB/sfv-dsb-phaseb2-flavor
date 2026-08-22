@@ -56,6 +56,11 @@ The claim boundary is explicit. The determinant-preserving response compensator 
 
 SFV/dSB; quark flavor; Pati–Salam; chiral localization; O(4) bounce; CKM matrix; flavor hierarchy; effective field theory; domain wall; reproducible research
 
+## Final publication identifiers
+
+- GitHub: https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor
+- Zenodo DOI: https://doi.org/10.5281/zenodo.22059294
+
 ## What to upload
 
 ### GitHub
@@ -92,7 +97,7 @@ git init
 git add .
 git commit -m "Publish SFV/dSB Phase B2 v1.7.0"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/sfv-dsb-phaseb2-flavor.git
+git remote add origin https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor.git
 git push -u origin main
 ```
 
@@ -102,7 +107,10 @@ Then create the GitHub release/tag `v1.7.0` in the web interface.
 
 1. Create a **New upload** in Zenodo and choose **Publication → Preprint**.
 2. Before final publication, click **Get a DOI now!** to reserve the DOI.
-3. Replace the placeholders near the top of `paper/phaseB2_v1.7.0_paper.tex` with the final GitHub URL and reserved Zenodo DOI, then recompile the PDF. Update the GitHub repository with that final PDF/source before tagging `v1.7.0`.
+3. The final identifiers are already inserted in `paper/phaseB2_v1.7.0_paper.tex`:
+   - GitHub: `https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor`
+   - Zenodo DOI: `10.5281/zenodo.22059294`
+   Commit the final PDF/source before tagging `v1.7.0`.
 4. Upload the final PDF and the final publication ZIP to Zenodo, paste the metadata above, set the PDF as the default preview, and publish.
 
 This produces one Zenodo DOI for the paper/reproducibility package while GitHub remains the browsable living repository.
@@ -113,7 +121,7 @@ If you prefer the DOI to identify the software release instead of the preprint, 
 
 ## Before publication
 
-- Replace `USERNAME/REPOSITORY` and `DOI-TO-BE-ASSIGNED` in the LaTeX source.
+- GitHub and Zenodo identifiers are already inserted in the LaTeX source.
 - Decide whether to retain the current custom restrictive license or replace it with standard licenses. The package preserves the license already present in the earlier project; it has not been changed automatically.
 - Recompile the paper after inserting the final identifiers.
 - Run `pytest -q` one final time.

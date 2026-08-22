@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you use this release, please cite the Phase B2 v1.7.0 paper and repository record."
 title: "SFV/dSB Phase B2: Pati-Salam Flavor Operator Origin and Constrained Response-Metric Completion"
 version: 1.7.0
+doi: 10.5281/zenodo.22059294
+repository-code: "https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor"
+url: "https://doi.org/10.5281/zenodo.22059294"
 date-released: 2026-08-22
 authors:
   - family-names: Hoffmann
