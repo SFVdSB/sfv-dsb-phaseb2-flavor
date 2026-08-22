@@ -1,0 +1,14 @@
+{
+  "generator_is_traceless": true,
+  "generator_norm_is_4_over_35": true,
+  "radial_closed_form_identity": true,
+  "action_minimum_A_equals_sigma": true,
+  "action_minimum_B_equals_minus_sigma": true,
+  "determinant_product_is_one": true,
+  "Z0_exact": true,
+  "ZF_exact": true,
+  "frozen_flavor_below_1pct": true,
+  "seed_gauge_ratio_protected": true,
+  "finite_heavy_modulus_has_viable_region": true,
+  "auxiliary_version_needs_no_new_propagating_field": true
+}

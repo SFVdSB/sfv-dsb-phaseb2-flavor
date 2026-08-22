@@ -1,0 +1,8 @@
+{
+  "unit_common_coefficient_below_1pct": true,
+  "best_common_coefficient_near_one": true,
+  "one_coefficient_model_below_1pct": true,
+  "two_coefficient_model_below_1pct": true,
+  "multiplicity_does_not_fix_wilson_coefficients": true,
+  "crosswall_compensation_lambdas_not_universal": true
+}

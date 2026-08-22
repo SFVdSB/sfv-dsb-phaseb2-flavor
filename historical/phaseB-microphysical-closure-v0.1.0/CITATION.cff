@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software and accompanying SFV/dSB derivation report."
+title: "SFV/dSB Microphysical Closure — Phase B"
+version: 0.1.0
+date-released: 2026-07-18
+authors:
+  - family-names: Hoffmann
+    given-names: Steven

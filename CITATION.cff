@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this release, please cite the Phase B2 v1.7.0 paper and repository record."
+title: "SFV/dSB Phase B2: Pati-Salam Flavor Operator Origin and Constrained Response-Metric Completion"
+version: 1.7.0
+date-released: 2026-08-22
+authors:
+  - family-names: Hoffmann
+    given-names: Steven
+keywords:
+  - quark flavor
+  - Pati-Salam
+  - chiral localization
+  - O(4) bounce
+  - effective field theory
+  - CKM
+  - reproducible research

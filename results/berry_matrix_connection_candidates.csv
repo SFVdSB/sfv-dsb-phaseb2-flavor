@@ -1,0 +1,4 @@
+candidate,correlation_with_canonical_E,rms_difference_after_max_normalization
+abs_theta_prime,0.9248440231288325,0.17289966754626784
+theta_prime_squared_over_Hessian_gap,0.7719099406176602,0.2871730488831035
+abs_theta_prime_over_Hessian_gap,0.8577272499257842,0.23718255922716966

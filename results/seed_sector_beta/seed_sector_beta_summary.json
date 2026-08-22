@@ -1,0 +1,138 @@
+{
+  "version": "1.0.0",
+  "model": {
+    "fields": "X0 singlet plus X4,XL,XR real adjoint seed blocks; S2 gauge-singlet source",
+    "boundary": "M_a^2=M_0^2 and mu_a=mu_0 at Lambda_seed under O(22)_seed",
+    "minimal_gauge_beta_coefficients": {
+      "SU4": -10.0,
+      "SU2L": -2.6666666666666665,
+      "SU2R": -2.6666666666666665
+    },
+    "claim_boundary": "The analytic gauge-breaking beta terms are model independent. Numerical g running uses a minimal Pati-Salam matter content; extra breaking multiplets change the numerical size."
+  },
+  "one_loop_gauge_beta_functions": {
+    "mass": "(16 pi^2) beta(M_a^2)|g = -6 C2(adj_a) g_a^2 M_a^2",
+    "trilinear_source": "(16 pi^2) beta(mu_a)|g = -6 C2(adj_a) g_a^2 mu_a",
+    "singlet": "no gauge contribution",
+    "protected_relation": "d ln(mu_a/M_a^2)/d ln Q = 0 at one-loop gauge order",
+    "common_terms": "O(22)-symmetric quartic and scalar terms cancel in adjoint/singlet ratios; non-O(22) scalar couplings would add model-dependent splitting."
+  },
+  "scales": {
+    "Lambda_seed_GeV": 241000000000000.0,
+    "M_match_GeV": 16280000000000.0,
+    "ratio": 14.803439803439803,
+    "log_interval": 2.6948595729162608
+  },
+  "blocks": [
+    {
+      "block": "SU4",
+      "multiplicity": 15,
+      "C2_adj": 4.0,
+      "b_minimal": -10.0,
+      "g_UV": 0.580379389023194,
+      "g_IR": 0.6169245670069012,
+      "M2_ratio_IR_over_UV_singlet": 1.1578390734390465,
+      "mu_ratio_IR_over_UV_singlet": 1.1578390734390465,
+      "mu_over_M2_ratio": 1.0,
+      "kernel_ratio_massloop_mu2": 1.3405913199821897,
+      "kernel_ratio_derivative_mu2_over_M2": 1.1578390734390465,
+      "kernel_ratio_inverse_mass_1_over_M2": 0.8636778831705616,
+      "kernel_ratio_mu2_over_M4": 1.0
+    },
+    {
+      "block": "SU2L",
+      "multiplicity": 3,
+      "C2_adj": 2.0,
+      "b_minimal": -2.6666666666666665,
+      "g_UV": 0.541853061524504,
+      "g_IR": 0.5492413235875828,
+      "M2_ratio_IR_over_UV_singlet": 1.0628391194925193,
+      "mu_ratio_IR_over_UV_singlet": 1.0628391194925193,
+      "mu_over_M2_ratio": 1.0,
+      "kernel_ratio_massloop_mu2": 1.1296269939236336,
+      "kernel_ratio_derivative_mu2_over_M2": 1.0628391194925193,
+      "kernel_ratio_inverse_mass_1_over_M2": 0.9408761699300986,
+      "kernel_ratio_mu2_over_M4": 1.0
+    },
+    {
+      "block": "SU2R",
+      "multiplicity": 3,
+      "C2_adj": 2.0,
+      "b_minimal": -2.6666666666666665,
+      "g_UV": 0.5230584114817481,
+      "g_IR": 0.5296949333224207,
+      "M2_ratio_IR_over_UV_singlet": 1.0583768387025305,
+      "mu_ratio_IR_over_UV_singlet": 1.0583768387025305,
+      "mu_over_M2_ratio": 1.0,
+      "kernel_ratio_massloop_mu2": 1.1201615327019623,
+      "kernel_ratio_derivative_mu2_over_M2": 1.0583768387025305,
+      "kernel_ratio_inverse_mass_1_over_M2": 0.9448430496890928,
+      "kernel_ratio_mu2_over_M4": 1.0
+    }
+  ],
+  "scenario_results": [
+    {
+      "scenario": "O22 boundary imposed at matching scale",
+      "kernel_scaling": "k_a/k_0=1",
+      "status": "protected boundary",
+      "N_eff": 21.0,
+      "interpretation": "No Pati-Salam running interval between equality boundary and mediator matching.",
+      "max_flavor_error_pct": 0.5957126056882367,
+      "rms_flavor_error_pct": 0.35048222459348294
+    },
+    {
+      "scenario": "source-to-mass-squared protected ratio",
+      "kernel_scaling": "mu_a/M_a^2",
+      "status": "one-loop gauge protected",
+      "N_eff": 21.0,
+      "interpretation": "Because beta_ln(mu)=beta_ln(M^2), the ratio mu/M^2 is unchanged by gauge running at one loop.",
+      "max_flavor_error_pct": 0.5957126056882367,
+      "rms_flavor_error_pct": 0.35048222459348294
+    },
+    {
+      "scenario": "composite derivative susceptibility",
+      "kernel_scaling": "mu_a^2/M_a^2",
+      "status": "enhancing",
+      "N_eff": 23.73123397617085,
+      "interpretation": "The one-loop derivative expansion of a scalar bubble has this scaling; charged adjoint blocks are enhanced in the IR.",
+      "max_flavor_error_pct": 6.5057358208317595,
+      "rms_flavor_error_pct": 3.7470579764599616
+    },
+    {
+      "scenario": "inverse-mass tree/auxiliary marker",
+      "kernel_scaling": "1/M_a^2",
+      "status": "suppressive",
+      "N_eff": 18.612325906415997,
+      "interpretation": "A tree-level inverse-mass kernel is suppressed because gauge running raises the charged seed masses toward the IR.",
+      "max_flavor_error_pct": 5.714543914731096,
+      "rms_flavor_error_pct": 3.3319448711526007
+    },
+    {
+      "scenario": "zero-momentum loop mass marker",
+      "kernel_scaling": "mu_a^2 times renormalized B0(0)",
+      "status": "scheme/boundary dependent",
+      "N_eff": 26.858235379609635,
+      "interpretation": "The local S mass term is logarithmically divergent and requires a counterterm; its finite sign and relative threshold are not fixed by the beta function alone.",
+      "max_flavor_error_pct": 11.80563762652177,
+      "rms_flavor_error_pct": 7.2894754012611225
+    },
+    {
+      "scenario": "dimension-six normalized kernel",
+      "kernel_scaling": "mu_a^2/M_a^4",
+      "status": "one-loop gauge protected",
+      "N_eff": 21.0,
+      "interpretation": "Gauge factors cancel exactly at this order because M_a^2 and mu_a run identically.",
+      "max_flavor_error_pct": 0.5957126056882367,
+      "rms_flavor_error_pct": 0.35048222459348294
+    }
+  ],
+  "sub1pct_interval_inherited": {
+    "N_eff_min": 20.49,
+    "N_eff_max": 21.16
+  },
+  "maximum_scale_ratio_for_sub1pct": {
+    "derivative_enhancing_mu2_over_M2": 1.1936214872545146,
+    "inverse_mass_suppressive_1_over_M2": 1.7680969756095777
+  },
+  "main_conclusion": "The exact one-loop seed RGEs do not select a universal suppressive or enhancing sign by themselves; the sign belongs to the definition of the induced mediator kernel. M_a^2 and mu_a receive identical gauge factors, so mu/M^2 and mu^2/M^4 are protected. The concrete loop-induced derivative kernel mu^2/M^2 is enhancing and gives N_eff about 23.73 across the current scale interval, producing a roughly 6.5% worst flavor error. Therefore the derivative-bubble realization is ruled out unless the O(22) equality is imposed within about 19% of the mediator matching scale or additional dynamics cancels the running. A protected auxiliary/composite realization based on mu/M^2 remains viable at one loop."
+}

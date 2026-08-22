@@ -1,0 +1,7 @@
+{
+  "desired_profiles_with_exactly_one_near_zero": 9,
+  "opposite_profiles_with_zero_near_zero": 9,
+  "minimum_opposite_eigenvalue": 0.8768745706669897,
+  "minimum_nonzero_desired_eigenvalue": 0.8767586729458219,
+  "total_profiles": 9
+}

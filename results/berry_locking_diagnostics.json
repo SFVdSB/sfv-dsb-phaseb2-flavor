@@ -1,0 +1,11 @@
+{
+  "R_total_gradient_peak": 5.207425309387891,
+  "R_max_Hessian_mixing": 5.913579732488854,
+  "delta_R": 0.7061544231009629,
+  "alpha_delta_R": 0.48790861203019914,
+  "integrated_abs_connection_between_landmarks_rad": 0.3489402602167696,
+  "net_Hessian_rotation_between_landmarks_rad": 0.3489402512431984,
+  "correlation_abs_theta_prime_with_E": 0.9248440231288325,
+  "phaseB_a_d1_formula_value": 0.48790861203019914,
+  "interpretation": "Rotating to the local scalar-Hessian eigenbasis produces U^T d_y U=theta'(y) J, a spatial avoided-crossing connection.  The accepted a_d1 relation measures the coordinate width of this locking interval, while the integrated connection measures its rotation angle."
+}

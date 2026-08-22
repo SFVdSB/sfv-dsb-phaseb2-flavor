@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "status": "exact operator reduction complete; minimal two-spurion test fails naturalness/accuracy",
+  "exact_zero_mode_equations": {
+    "action": "Hermitian action with 4D kinetic weight Z_parallel, transverse weight Z_perp, and mass kernel W. After Psi=Z_parallel^{-1/2} chi, define A=Z_perp/Z_parallel and M=Z_parallel^{-1/2} W Z_parallel^{-1/2}.",
+    "left": "f_L' = -A_y f_L -(1/2)(ln A)' f_L - A^{-1} M f_L",
+    "right": "f_R' = -A_y f_R -(1/2)(ln A)' f_R + A^{-1} M f_R",
+    "sign_note": "Coordinate orientation or the sign assigned to the right-handed wall mass may be reversed; the invariant statement is that the mass term changes sign between chiralities."
+  },
+  "key_correction": "A common isotropic position-dependent kinetic factor Z_parallel=Z_perp cancels under proper Hermitian canonical normalization. The earlier scalar kinetic-connection interpretation requires transverse/brane anisotropy or an explicit localized mass operator.",
+  "canonical_route1_embedding": {
+    "formula": "Let F_E'=E, A_Ai=exp(2 kappa_Ai F_E), W_Ai=A_Ai q_Ai O, kappa_Ai=q_Ai h_Ai. Then the left-handed reduced equation is exactly f'=-[q O+kappa E]f.",
+    "max_B_reconstruction_abs_error": 8.881784197001252e-16,
+    "largest_transverse_anisotropy_ratio": 36654.66042734683,
+    "warning": "The exact embedding proves operator existence, not naturalness. The Q_L outer generations require an A_max/A_min ratio about 3.7e4 if the entire E term comes from kinetic anisotropy."
+  },
+  "berry_connection": {
+    "rotating_basis_with_connection_relative_max_error": 7.104420759018324e-09,
+    "rotating_basis_without_connection_relative_max_error": 0.3872376612697208,
+    "connection_diagonal_is_zero": true,
+    "interpretation": "The real Hessian rotation generates an off-diagonal antisymmetric connection. It is required for basis covariance but is not an independent diagonal scalar potential.",
+    "linear_abs_theta_prime_correlation_with_E": 0.9248440231288325,
+    "adiabatic_second_order_theta2_over_gap_correlation_with_E": 0.7719099406176602,
+    "conclusion": "The Hessian connection is a real off-diagonal two-channel effect. Treating |theta'| as a standalone diagonal flavor potential is not justified. A physical contribution requires channel-dependent masses/couplings and, after elimination, is generally second order."
+  },
+  "minimal_two_spurion_test": {
+    "model": "F=diag(-1,0,+1), S=SM hypercharge; q=exp(a_S S+a_FS FS), kappa=b0+bF F+bS S+bFS FS",
+    "n_coefficients": 6,
+    "natural_bound_3_max_abs_percent_error": 156.54528260945372,
+    "relaxed_bound_5_max_abs_percent_error": 18.46997277788962,
+    "unbounded_seeded_max_abs_percent_error": 5.5389565088186155,
+    "unbounded_seeded_h_max": 5980.485470205917,
+    "conclusion": "The smallest generation-plus-hypercharge bilinear does not provide a natural closure. Relaxing it drives coefficients/charges to boundaries or extreme profile parameters."
+  },
+  "next_recommended_step": "Keep the exact local operator reduction, but enlarge the flavor algebra minimally: test a second independent representation spurion or a non-Abelian/discrete flavor generator. In parallel, build the actual two-channel bulk/brane fermion mass matrix so the Hessian connection contributes through controlled adiabatic elimination rather than as a guessed scalar profile."
+}

@@ -1,0 +1,13 @@
+{
+  "one_ell0_negative_mode": true,
+  "ell1_translation_near_zero": true,
+  "ell1_translation_profile_verified": true,
+  "ell0_is_breathing_like": true,
+  "residual_not_identical_to_breathing": true,
+  "ordinary_weyl_cases_do_not_exactly_match_pair": true,
+  "internal_volume_modulus_exact_Z0": true,
+  "internal_volume_modulus_exact_ZF": true,
+  "internal_volume_constraint": true,
+  "s3_benchmark_near_match_but_not_declared_derivation": true,
+  "s3_crosswall_not_universal": true
+}

@@ -1,0 +1,127 @@
+{
+  "version": "1.7.0",
+  "generator": {
+    "dimensions": {
+      "seed_block": 21,
+      "fermion_block": 15,
+      "total": 36
+    },
+    "charges_per_direction": {
+      "seed": 0.047619047619047616,
+      "fermion_per_leg": -0.06666666666666667
+    },
+    "trace_T": -2.7755575615628914e-17,
+    "trace_T2": 0.11428571428571428,
+    "closed_form_trace_T2": "1/21 + 1/15 = 4/35",
+    "uniqueness_statement": "Under O(21)xO(15) block isotropy, det(C21)det(C15)=1, and the convention Sigma=ln det(C21), the one-dimensional generator is uniquely T=diag(I21/21,-I15/15)."
+  },
+  "bounce_radial_driver": {
+    "rho": 2.357142857142857,
+    "Phi_center": 2.041106525798828,
+    "x_center": 0.8659239806419271,
+    "u_center": 0.1340760193580729,
+    "epsilon_c": 0.06258786073096725,
+    "lambda_radial": 1.0718550277230197,
+    "Sigma_lambda_times_epsilon": 0.0670851131989154,
+    "Sigma_closed_form": 0.06708511319891537,
+    "closed_form_function": "Sigma_rad(x)=2(1-x)^2(1+x), x=varrho/rho",
+    "identity_error": -2.7755575615628914e-17,
+    "interpretation": "This is the canonical finite-amplitude radial driver already derived from the quartic bounce.  In the reduced collective-coordinate action it is evaluated on the bounce saddle; it is not being asserted as a new local spacetime coordinate."
+  },
+  "explicit_constrained_action": {
+    "block_parameterization": "C21=exp(a) I21, C15=exp(b) I15; A=21a=ln det C21, B=15b=ln det C15",
+    "potential": "V=1/2 Lambda_U^4[A+B]^2 + 1/2 Lambda_L^4[(A-B)/2-Sigma_rad]^2 + V_shape, A=ln det C21, B=ln det C15",
+    "shape_terms": "Positive O(21)- and O(15)-invariant penalties remove traceless anisotropy inside each block.",
+    "minimum": "A=Sigma_rad, B=-Sigma_rad; hence a=Sigma_rad/21 and b=-Sigma_rad/15.",
+    "implementation": "Preferred: C21,C15 are algebraic response metrics in the wall-reduced EFT. They add no spacetime dimensions and no propagating scalar.",
+    "compensator_symmetry": "A one-parameter determinant-preserving internal rescaling, commuting with Pati-Salam, acts with weights +1/21 and -1/15. It is a spurionic/response symmetry, not full SL(36) mixing of gauge-inequivalent fields."
+  },
+  "action_minimum": {
+    "auxiliary_potential": "V=1/2 Lambda_U^4[A+B]^2 + 1/2 Lambda_L^4[(A-B)/2-Sigma_rad]^2 + V_shape, A=ln det C21, B=ln det C15",
+    "minimum": {
+      "A_ln_det_C21": 0.06708511319891537,
+      "B_ln_det_C15": -0.06708511319891537,
+      "expected_A": 0.06708511319891537,
+      "expected_B": -0.06708511319891537,
+      "linear_solution_max_abs_error": 0.0,
+      "C21_eigenvalue": 1.0031996371460656,
+      "C15_eigenvalue_per_fermion_leg": 0.9955376451440311,
+      "Z0": 1.0031996371460656,
+      "ZF_two_legs": 0.9910952028989227,
+      "det_C21": 1.0693864932065662,
+      "det_C15": 0.9351156072688817,
+      "det_product": 0.9999999999999979
+    },
+    "degrees_of_freedom": "With C21 and C15 treated as algebraic response metrics, this adds no propagating particle.  A kinetic term would instead create a heavy modulus and is audited separately."
+  },
+  "frozen_flavor_prediction": {
+    "max_error_pct": 0.6110760482679778,
+    "rms_error_pct": 0.3579715048082065,
+    "errors_pct": {
+      "ct": -0.6110760482679778,
+      "ut": -0.03047043568465968,
+      "sb": 0.1720080847341432,
+      "db": -0.24908951846045468,
+      "Vus": 0.35445689286794924,
+      "Vcb": -0.1418002566799248,
+      "Vub": 0.5341193054440918
+    },
+    "amplitudes": {
+      "Z0": 1.0031996371460656,
+      "Z_F": 0.9910952028989227,
+      "weak_inverse_even": 3.5305212765666623,
+      "c_d0": 3.54181766358814,
+      "c_d1": -0.8742258836000921,
+      "a_d0": 0.2611898432615926,
+      "a_d1": 0.241781942418101
+    }
+  },
+  "flavor_tolerance": {
+    "common": {
+      "allowed_scale_min_below_1pct": 0.706,
+      "allowed_scale_max_below_1pct": 1.361,
+      "best_scale": 0.97,
+      "best_max_error_pct": 0.5787844021820532
+    },
+    "fermion_only": {
+      "allowed_scale_min_below_1pct": 0.46299999999999997,
+      "allowed_scale_max_below_1pct": 1.438,
+      "best_scale": 0.956,
+      "best_max_error_pct": 0.5720640908032149
+    },
+    "seed_only": {
+      "allowed_scale_min_below_1pct": 0.398,
+      "allowed_scale_max_below_1pct": 1.495,
+      "best_scale": 0.9020000000000001,
+      "best_max_error_pct": 0.5926109219687614
+    }
+  },
+  "finite_mass_locking": {
+    "action_FWHM": {
+      "minimum_m_over_p_below_1pct": 1.55,
+      "minimum_modulus_mass_dimless_below_1pct": 0.884809250363571,
+      "response_at_threshold": 0.7060984570168993
+    },
+    "gradient_FWHM": {
+      "minimum_m_over_p_below_1pct": 1.55,
+      "minimum_modulus_mass_dimless_below_1pct": 0.5957854555375347,
+      "response_at_threshold": 0.7060984570168993
+    }
+  },
+  "one_loop_stability": {
+    "gauge_result": "The determinant-one constraint is algebraic and exact. At one-loop gauge order, the seed kernel mu/M^2 remains equal in all 21 directions. Multiplicative gauge renormalization of a fermion source changes its overall coupling but not the normalized radial exponent.",
+    "generic_nonlinear_vertex_model": "dy/dlnQ=a y^3/(16pi^2), zeta=2 a y_UV^2 ln(Lambda/Q)/(16pi^2)",
+    "largest_scanned_zeta_inside_direct_1pct_window": 1.165,
+    "qF_scale_at_that_point": 0.4630056043803151,
+    "interpretation": "The flavor tolerance is much broader than ordinary perturbative one-loop corrections. The exact determinant relation is protected; the more model-dependent radial-locking normalization is stable unless nonlinear source interactions become very strong."
+  },
+  "scientific_verdict": {
+    "consistency_with_SFV_dSB": true,
+    "extra_spacetime_dimensions_added": false,
+    "new_propagating_field_required": false,
+    "determinant_constraint_status": "exact in the auxiliary constrained response action",
+    "radial_identification_status": "exact inside the augmented action through the locking invariant, but this locking/compensator principle is one additional structural postulate beyond the original SFV/dSB scalar action",
+    "parameter_free_status": "Within the minimal constrained-response extension, no continuous flavor coefficient remains. The extension itself is not yet derived uniquely from the original bounce Lagrangian.",
+    "main_result": "The smallest gauge-compatible implementation is not a 36-dimensional physical symmetry but a single determinant-preserving internal rescaling of two isotropic response blocks. The auxiliary action uniquely yields +1/21 and -1/15, locks to the bounce radial driver, and is one-loop gauge stable."
+  }
+}

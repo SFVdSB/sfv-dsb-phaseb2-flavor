@@ -1,0 +1,266 @@
+{
+  "version": "1.5.0",
+  "exact_uv_elimination": {
+    "seed_functions": [
+      "M_X^2(R)",
+      "mu_X(R)",
+      "y_F(R)"
+    ],
+    "Z0": "[mu_X(R)/M_X^2(R)]/[mu_X(0)/M_X^2(0)]",
+    "ZF": "[y_F(R)/y_F(0)]^2",
+    "linear_responses": {
+      "lambda0_effective": "d_R ln(mu_X)-d_R ln(M_X^2)",
+      "lambdaF_effective": "d_R ln(y_F)"
+    },
+    "result": "Canonical normalization fixes R but not derivatives of independent seed/source functions. An extra compensator relation or UV boundary condition is required to set a common absolute coefficient."
+  },
+  "bounce_invariants": {
+    "u": 0.13407601935807295,
+    "chi_equals_1_minus_Phi2_over_rho2": 0.2501756597492396,
+    "epsilon_equals_chi_squared": 0.06258786073096725,
+    "epsilon_total_including_tiny_brane_terms": 0.06258786255659175,
+    "lambda_radial": 1.0718550277230197,
+    "lambda_radial_times_epsilon": 0.0670851131989154,
+    "radial_chi_weight": 0.26815203871614574,
+    "radial_chi_weight_exact_identity": "2u",
+    "two_u": 0.2681520387161459
+  },
+  "candidate_results": {
+    "exact_residual_energy_R": {
+      "driver_D": 0.06258786073096725,
+      "lambda_equivalent": 1.0,
+      "amplitudes": {
+        "Z0": 1.0029848200516178,
+        "Z_F": 0.9916896751601945,
+        "weak_inverse_even": 3.5305212765666623,
+        "c_d0": 3.541059247265622,
+        "c_d1": -0.874750256068414,
+        "a_d0": 0.2613465084500536,
+        "a_d1": 0.24192696648604475
+      },
+      "controls": [
+        2.8115116750864866,
+        2.9393076603176906,
+        -0.0315695284940047,
+        0.2613465084500536,
+        0.24192696648604475,
+        2.6837156898552825,
+        -0.6629600983740986
+      ],
+      "errors_pct": {
+        "ct": -0.5389058644046818,
+        "ut": 0.0794029364837412,
+        "sb": 0.3602540265781107,
+        "db": -0.2512065864834101,
+        "Vus": 0.2733881706894481,
+        "Vcb": -0.10871335910458413,
+        "Vub": 0.6320670849252696
+      },
+      "max_error_pct": 0.6320670849252696,
+      "rms_error_pct": 0.3733402423559967
+    },
+    "canonical_radial_anharmonic_R": {
+      "driver_D": 0.0670851131989154,
+      "lambda_equivalent": 1.0718550277230197,
+      "amplitudes": {
+        "Z0": 1.0031996371460659,
+        "Z_F": 0.9910952028989227,
+        "weak_inverse_even": 3.5305212765666623,
+        "c_d0": 3.541817663588141,
+        "c_d1": -0.8742258836000921,
+        "a_d0": 0.2611898432615926,
+        "a_d1": 0.241781942418101
+      },
+      "controls": [
+        2.812113838506086,
+        2.9399371948018174,
+        -0.03155060401645775,
+        0.2611898432615926,
+        0.241781942418101,
+        2.6842904822103546,
+        -0.6625626843456127
+      ],
+      "errors_pct": {
+        "ct": -0.611076239128916,
+        "ut": -0.030470597042053793,
+        "sb": 0.1720079399710972,
+        "db": -0.24908972519670503,
+        "Vus": 0.35445686876980353,
+        "Vcb": -0.14180049850078813,
+        "Vub": 0.5341191373816168
+      },
+      "max_error_pct": 0.611076239128916,
+      "rms_error_pct": 0.3579715383806288
+    },
+    "harmonic_energy_fraction": {
+      "driver_D": 0.0719055158676254,
+      "lambda_equivalent": 1.1488732004551157,
+      "amplitudes": {
+        "Z0": 1.0034299410158565,
+        "Z_F": 0.990458410499096,
+        "weak_inverse_even": 3.5305212765666623,
+        "c_d0": 3.5426307563005124,
+        "c_d1": -0.8736641813571794,
+        "a_d0": 0.2610220251684221,
+        "a_d1": 0.24162659417012558
+      },
+      "controls": [
+        2.812759413599337,
+        2.9406121142174886,
+        -0.03153033231623272,
+        0.2610220251684221,
+        0.24162659417012558,
+        2.684906712981185,
+        -0.6621369786408872
+      ],
+      "errors_pct": {
+        "ct": -0.688386392570195,
+        "ut": -0.14812897368158273,
+        "sb": -0.029537196535245336,
+        "db": -0.24668948596315854,
+        "Vus": 0.4415192478195218,
+        "Vcb": -0.17745853675933398,
+        "Vub": 0.42935238529628883
+      },
+      "max_error_pct": 0.688386392570195,
+      "rms_error_pct": 0.37192941265921253
+    },
+    "canonical_displacement_u": {
+      "driver_D": 0.13407601935807295,
+      "lambda_equivalent": 2.1422048587727933,
+      "amplitudes": {
+        "Z0": 1.0064049971772244,
+        "Z_F": 0.9822820395161863,
+        "weak_inverse_even": 3.5305212765666623,
+        "c_d0": 3.5531342553772025,
+        "c_d1": -0.8664519628677056,
+        "a_d0": 0.2588672522977349,
+        "a_d1": 0.23963193326126783
+      },
+      "controls": [
+        2.821098926784884,
+        2.949330696184197,
+        -0.03127004506792511,
+        0.2588672522977349,
+        0.23963193326126783,
+        2.692867157385571,
+        -0.6566709464264273
+      ],
+      "errors_pct": {
+        "ct": -1.6812217708728538,
+        "ut": -1.655440578265277,
+        "sb": -2.607838041877364,
+        "db": -0.2034160381366279,
+        "Vus": 1.5802992161980445,
+        "Vcb": -0.6550198302356036,
+        "Vub": -0.9017362828378506
+      },
+      "max_error_pct": 2.607838041877364,
+      "rms_error_pct": 1.5188676422520613
+    },
+    "lowest_dimension_U1_invariant_chi": {
+      "driver_D": 0.2501756597492396,
+      "lambda_equivalent": 3.997191417431808,
+      "amplitudes": {
+        "Z0": 1.0119843705796177,
+        "Z_F": 0.9671934472889344,
+        "weak_inverse_even": 3.5305212765666623,
+        "c_d0": 3.5728323518842617,
+        "c_d1": -0.8531426078899316,
+        "a_d0": 0.2548908562589419,
+        "a_d1": 0.2359510062157238
+      },
+      "controls": [
+        2.836738718282115,
+        2.9656813872949384,
+        -0.030789713615270123,
+        0.2548908562589419,
+        0.2359510062157238,
+        2.7077960492692914,
+        -0.6465839859206726
+      ],
+      "errors_pct": {
+        "ct": -3.514175379205242,
+        "ut": -4.420204184937138,
+        "sb": -7.317656425036468,
+        "db": -0.05951157185257738,
+        "Vus": 3.789636492490689,
+        "Vcb": -1.6312717674386912,
+        "Vub": -3.290037363555176
+      },
+      "max_error_pct": 7.317656425036468,
+      "rms_error_pct": 4.02289890133362
+    },
+    "exploratory_PS_4_over_15_times_chi": {
+      "driver_D": 0.0667135092664639,
+      "lambda_equivalent": 1.0659177113151488,
+      "amplitudes": {
+        "Z0": 1.0031818852588348,
+        "Z_F": 0.9911443100987855,
+        "weak_inverse_even": 3.5305212765666623,
+        "c_d0": 3.5417549901725724,
+        "c_d1": -0.8742692001100152,
+        "a_d0": 0.26120278480524817,
+        "a_d1": 0.24179392233096386
+      },
+      "controls": [
+        2.8120640773958407,
+        2.9398851718229246,
+        -0.03155216729898872,
+        0.26120278480524817,
+        0.24179392233096386,
+        2.684242982968757,
+        -0.6625955132787631
+      ],
+      "errors_pct": {
+        "ct": -0.6051144370274653,
+        "ut": -0.02139561151630609,
+        "sb": 0.18755478429857142,
+        "db": -0.24926911646879768,
+        "Vus": 0.3477524914621277,
+        "Vcb": -0.13905992845217874,
+        "Vub": 0.5422049990027489
+      },
+      "max_error_pct": 0.6051144370274653,
+      "rms_error_pct": 0.35820761409959184
+    }
+  },
+  "diagnostic_only_flavor_fit": {
+    "best_previous_common_lambda": 1.0757295578518313,
+    "best_previous_driver": 0.0673276117510154,
+    "equivalent_low_dimension_chi_weight": 0.2691213518473395,
+    "direct_rms_fit_chi_weight": 0.269246075054941,
+    "fit_max_error_pct": 0.6154671654774235,
+    "fit_rms_error_pct": 0.35791973204399624,
+    "subpercent_chi_weight_scan_interval": [
+      0.18925000000000003,
+      0.365
+    ],
+    "uses_flavor_data": true
+  },
+  "renormalizable_portal_diagnostic": {
+    "unit_energy_target": {
+      "eta0": -0.011895391489864338,
+      "etaF": 0.016713221227336268
+    },
+    "radial_anharmonic_target": {
+      "eta0": -0.01274877069885564,
+      "etaF": 0.017916837820064327
+    },
+    "interpretation": "The lowest-dimension U(1)-invariant portal is proportional to chi=1-|Phi|^2/rho^2=sqrt(epsilon), but its coefficient is independent. Unit coefficient overcorrects flavor; reproducing the mild radial matching requires small O(10^-2) rational-portal coefficients or an equivalent common compensator weight."
+  },
+  "claim_boundary": {
+    "derived": [
+      "The exact form of Z0 and ZF after integrating out local seed/source functions.",
+      "Canonical radial normalization does not remove the independent Wilson derivatives.",
+      "The lowest-dimension U(1)-invariant radial portal scales as chi=sqrt(epsilon), not epsilon.",
+      "The previous radial driver satisfies (lambda_radial*epsilon)/chi=2u exactly."
+    ],
+    "not_derived": [
+      "lambda_res=lambda_radial from the stated symmetries alone.",
+      "A unique common radial compensator charge for seed masses and fermion sources.",
+      "The exploratory 4/15 normalization; it is numerically suggestive but post-hoc at this checkpoint."
+    ],
+    "scientific_classification": "No uniqueness theorem: the zero-fit 0.611% result remains a minimal canonical matching hypothesis. The explicit UV calculation leaves one genuine radial portal/compensator coefficient unless an additional symmetry is supplied."
+  }
+}

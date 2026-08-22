@@ -1,0 +1,11 @@
+{
+  "m_true_Phi_dimless": 1.0541463322499005,
+  "hessian_mixing_max_radius_dimless": 5.913579732488854,
+  "R_gradient_peak_dimless": 5.207425309387891,
+  "center_energy_excess_fraction": 0.0625878658328138,
+  "tachyonic_soft_end_dimless": 9.981624234343098,
+  "Phi_gradient_fraction": 0.7039743557809136,
+  "phi_gradient_fraction": 0.2960256442190864,
+  "phi_gradient_integral": 0.3287153154941755,
+  "k_geo": 0.199166031543829
+}

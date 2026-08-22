@@ -1,0 +1,207 @@
+{
+  "version": "0.7.0",
+  "frozen_target": "N=21 generating (N+1)/N, (N+2)/N, 1/N",
+  "route_1_integer_mediator": {
+    "N": 21,
+    "mass_matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        22
+      ]
+    ],
+    "determinant": 21,
+    "inverse": [
+      [
+        "22/21",
+        "-1/21"
+      ],
+      [
+        "-1/21",
+        "1/21"
+      ]
+    ],
+    "unit_coupling_vectors": {
+      "common_left_even": [
+        1,
+        0
+      ],
+      "down_singlet_right": [
+        1,
+        1
+      ],
+      "Q_odd_right": [
+        1,
+        0
+      ],
+      "up_singlet_right": [
+        1,
+        -1
+      ],
+      "up_odd_left_right": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "generated_factors": {
+      "down_singlet": "1",
+      "Q_odd": "22/21",
+      "up_singlet": "23/21",
+      "down_odd": "1",
+      "up_odd": "1/21"
+    },
+    "generated_ratios": {
+      "hQ_over_hd0": "22/21",
+      "hu0_over_hd0": "23/21",
+      "hu1_over_hd1": "1/21"
+    },
+    "eigenvalues": [
+      0.9524884451355068,
+      22.047511554864492
+    ],
+    "condition_number": 23.14727456008968,
+    "positive_definite": true,
+    "interpretation": "All three frozen rational relations follow from one positive two-channel integer mass matrix and coupling vectors containing only 0,+1,-1.  The only nontrivial discrete input is N."
+  },
+  "finite_minimality_search": {
+    "search_class": "symmetric positive-definite integer 2x2 matrices; entries 0..limit; unit coupling vectors in {-1,0,1}; common left vector for 21,22,23 channels",
+    "maximum_entry_limit": 22,
+    "first_solution_max_entry": 22,
+    "number_solutions_at_first_entry": 96,
+    "example": {
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          22
+        ]
+      ],
+      "determinant": 22,
+      "common_left": [
+        -1,
+        -1
+      ],
+      "right_Q": [
+        1,
+        0
+      ],
+      "right_u": [
+        1,
+        1
+      ],
+      "right_d": [
+        1,
+        -1
+      ]
+    },
+    "conclusion": "No solution occurs with maximum matrix entry <=21 in the declared search; the first solutions occur at 22.  This is a finite-class minimality result, not a theorem over arbitrary UV models."
+  },
+  "integer_scan_summary": {
+    "range": [
+      2,
+      80
+    ],
+    "best_integer_N": 21,
+    "best_max_error_pct": 0.5957124147949688,
+    "integers_below_1pct": [
+      21
+    ],
+    "neighbor_N20_error_pct": 1.9456306525572398,
+    "neighbor_N22_error_pct": 2.9098878052842947,
+    "claim_boundary": "The architecture and rational targets were discovered before this scan.  The scan shows sharp integer selection within the frozen model; it is not a blind discovery of 21."
+  },
+  "route_2_family_symmetry_and_anomalies": {
+    "charges": [
+      -1,
+      0,
+      1
+    ],
+    "matter_content": "three complete SM families plus right-handed neutrino, in left-handed Weyl notation",
+    "all_local_anomalies_zero": true,
+    "total_coefficients": {
+      "SU3^2-U1F": "0",
+      "SU2L^2-U1F": "0",
+      "Y^2-U1F": "0",
+      "Y-U1F^2": "0",
+      "U1F^3": "0",
+      "gravity^2-U1F": "0"
+    },
+    "witten_SU2L_doublets": 12,
+    "witten_SU2R_doublets_in_PS": 12,
+    "witten_anomalies_absent": true,
+    "vectorlike_mediators": "anomaly neutral when introduced in conjugate L/R pairs",
+    "discrete_remnant": "A Z_k remnant obtained by Higgsing this anomaly-free gauged U(1)_F inherits a consistent UV origin."
+  },
+  "route_3_pati_salam_contractions": {
+    "group": "SU(4)_C x SU(2)_L x SU(2)_R",
+    "fermion_multiplets": [
+      "(4,2,1)",
+      "(4bar,1,2)"
+    ],
+    "group_dimension": 21,
+    "C2_SU4_fundamental": "15/8",
+    "C2_SU2_doublet": "3/4",
+    "C2_sum_for_(4,2_or_2R)": "21/8",
+    "eight_times_C2_sum": 21,
+    "representation_offsets": {
+      "Q_L": {
+        "T3R": "0",
+        "offset_1_plus_2T3R": "1",
+        "N_plus_offset": "22"
+      },
+      "u_R": {
+        "T3R": "1/2",
+        "offset_1_plus_2T3R": "2",
+        "N_plus_offset": "23"
+      },
+      "d_R": {
+        "T3R": "-1/2",
+        "offset_1_plus_2T3R": "0",
+        "N_plus_offset": "21"
+      }
+    },
+    "exact_pattern": {
+      "Q_L": "22",
+      "u_R": "23",
+      "d_R": "21"
+    },
+    "interpretation": "Pati-Salam naturally supplies the sector splitter 1+2T3R=(1,2,0), so a universal N gives (N+1,N+2,N).  It also contains two independent appearances of 21: dim(G_PS)=21 and 8[C2(4)+C2(2)]=21.  A UV calculation must still show that the mediator mass entry is proportional to one of these invariants; the numerical coincidence alone is not a derivation."
+  },
+  "route_4_gauge_and_anomaly_verdict": {
+    "gauge_anomaly_free": true,
+    "global_SU2_anomaly_free": true,
+    "vectorlike_mediator_safe": true
+  },
+  "route_5_cross_project_consistency": {
+    "gauge_invariance": {
+      "status": "pass_conditionally",
+      "reason": "G(y) is a gauge singlet; vectorlike mediators can be assigned the same SM/Pati-Salam representation as the light channel; singlet and T3R-adjoint spurion contractions are gauge invariant."
+    },
+    "Lorentz_architecture": {
+      "status": "pass",
+      "reason": "The new terms are ordinary Lorentz-scalar masses/mixings with transverse y dependence. They do not add brane-parallel higher-spatial derivatives.  Integrating out the mediators generates Lorentz-covariant kinetic corrections suppressed by M_F^{-2}."
+    },
+    "strong_CP_architecture": {
+      "status": "pass_conditionally",
+      "reason": "Take the mediator matrix, family flavon and Pati-Salam spurions real and PQ-neutral in the real-amplitude phase.  They then introduce no explicit PQ-breaking operator.  Future complex spurions for CKM CP may generate arg det(YuYd), which is precisely the quantity the existing bulk-axion Route-II sector is designed to relax."
+    },
+    "remaining_conditions": [
+      "derive the overall four continuous amplitudes from mediator masses/couplings or wall normalization",
+      "derive why the integer mass-matrix invariant is N=21 rather than merely identify Pati-Salam candidates",
+      "perform a future complex-phase/CKM and full Yukawa-matrix RGE audit after the real sector is frozen"
+    ]
+  },
+  "main_conclusion": "The three post-hoc rational ratios can be generated exactly by one positive 2x2 integer mediator matrix with only unit coupling vectors.  In the resulting four-continuous-parameter model, N=21 is the unique integer from 2 through 80 below the 1% flavor threshold.  An anomaly-free family U(1)_F enforces the (-1,0,+1) direction, while Pati-Salam gives the exact sector offsets 1+2T3R=(1,2,0) and supplies physically relevant occurrences of 21.  The final missing proof is that a concrete SFV/Pati-Salam mediator calculation fixes the matrix invariant N to the PS value."
+}

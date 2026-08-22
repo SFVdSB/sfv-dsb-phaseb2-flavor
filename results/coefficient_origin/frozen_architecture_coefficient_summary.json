@@ -1,0 +1,73 @@
+{
+  "claim_boundary": "exploratory post-hoc coefficient hypothesis; not a first-principles derivation",
+  "frozen_operator": "q*O + kappa*I_G plus separately established universal Hessian correction",
+  "exact_controls": {
+    "h_Q": 2.9748097239308926,
+    "h_u0": 3.191115303149601,
+    "h_u1": -0.03098638280151201,
+    "a_d0": 0.25265488283253024,
+    "a_d1": 0.23413864783043356,
+    "h_d0": 2.8951808354446698,
+    "h_d1": -0.6850396342903919
+  },
+  "four_fixed": {
+    "h_Q": 2.9749648536668745,
+    "h_u0": 3.189777851668907,
+    "a_d1": 0.2337752530989594,
+    "h_d0": 2.8952984410493428
+  },
+  "three_fitted": {
+    "h_u1": -0.030983126244492766,
+    "a_d0": 0.25195637353845524,
+    "h_d1": -0.6841973119640226
+  },
+  "four_fixed_three_fit_errors_pct": {
+    "ct": -0.006654915200043909,
+    "ut": 0.004288867243928962,
+    "sb": -0.14680844690507788,
+    "db": -0.26175401609461746,
+    "Vus": -0.03670596502046708,
+    "Vcb": -0.08900879791725602,
+    "Vub": -0.32338539655074605
+  },
+  "four_fixed_three_fit_max_error_pct": 0.32338539655074605,
+  "zero_fit_candidate_controls": {
+    "h_Q": 2.9749648536668745,
+    "h_u0": 3.189777851668907,
+    "h_u1": -0.03130459573041883,
+    "a_d0": 0.2526078277430339,
+    "a_d1": 0.2337752530989594,
+    "h_d0": 2.8952984410493428,
+    "h_d1": -0.6831117338366424
+  },
+  "zero_fit_candidate_errors_pct": {
+    "ct": 1.0293822406731934,
+    "ut": 2.0886375544356905,
+    "sb": -0.8551438525600474,
+    "db": 0.3148077881063971,
+    "Vus": 0.6700468545747906,
+    "Vcb": 0.889909781413345,
+    "Vub": -0.8116576680010978
+  },
+  "zero_fit_candidate_max_error_pct": 2.0886375544356905,
+  "jacobian_singular_values": [
+    72.09956555347092,
+    32.39874813226151,
+    12.633134580920501,
+    3.394711109975856,
+    1.2986661046837955,
+    0.32418449427886853,
+    0.03414975091427356
+  ],
+  "jacobian_condition_number": 2111.2764697600032,
+  "weakest_parameter_direction": {
+    "h_Q": 0.22437431789058115,
+    "h_u0": 0.7827935228432998,
+    "h_u1": -0.001543389265106596,
+    "a_d0": 0.04039019427064498,
+    "a_d1": 0.005112685543440109,
+    "h_d0": 0.5665159679258709,
+    "h_d1": -0.11954176991167763
+  },
+  "interpretation": "all seven directions are locally identifiable, but one combination is weak; the remaining unknown is a flavor/Wilson-coefficient matching law, not one missing scalar coefficient"
+}

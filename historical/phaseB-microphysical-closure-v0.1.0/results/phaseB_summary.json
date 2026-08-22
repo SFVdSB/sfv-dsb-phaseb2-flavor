@@ -1,0 +1,54 @@
+{
+  "version": "0.1.0",
+  "status": "partial microphysical closure with an exploratory post-hoc benchmark formula",
+  "accepted_empirical_relation": {
+    "control": "a_d1",
+    "formula": "alpha (R_max_mixing - R_total_gradient_peak)",
+    "baseline_relative_error_pct": 0.1691919852580881,
+    "all_51_wall_correlation": 0.9678402148893661,
+    "all_51_wall_mean_abs_relative_error_pct": 0.6330515129389107,
+    "all_51_wall_max_abs_relative_error_pct": 2.9085176292988013
+  },
+  "benchmark_formula": {
+    "continuous_fit_count": 0,
+    "controls": {
+      "h_Q": 1.9188623238633342,
+      "h_u0": 0.3759750592829882,
+      "h_u1": -0.033394698648989,
+      "a_d0": 0.31621163318178863,
+      "a_d1": 0.48790861203019914,
+      "h_d0": 0.10431310972135638,
+      "h_d1": -0.1480128221095432
+    },
+    "max_abs_percent_error": 0.6005024923740443,
+    "rms_percent_error": 0.3681914264150486,
+    "classification": "hypothesis generated after inspecting the seven-control solution; not a prediction"
+  },
+  "three_fit_four_fixed_model": {
+    "fixed_controls": [
+      "h_Q",
+      "h_u0",
+      "a_d1",
+      "h_d1"
+    ],
+    "fitted_controls": [
+      "h_u1",
+      "a_d0",
+      "h_d0"
+    ],
+    "max_abs_percent_error_all_seven": 0.2744986148529138
+  },
+  "internal_balanced_holdout_test": {
+    "number_of_calibration_sets": 12,
+    "sets_with_heldout_max_below_1pct": 10,
+    "median_heldout_max_percent_error": 0.4234440953301166,
+    "worst_heldout_max_percent_error": 1.3229898614751212,
+    "warning": "not scientifically blind because formulas were discovered using the fitted benchmark"
+  },
+  "spectral_audit_formula_model": {
+    "desired_with_one_near_zero": 9,
+    "opposite_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.6505516042260512
+  },
+  "structural_conclusion": "The scalar wall determines O(x), E(x), and several geometric combinations, but it does not determine generation charges or fermion Wilson coefficients. A flavor symmetry or explicit UV fermion sector remains necessary for a first-principles Phase-B derivation."
+}

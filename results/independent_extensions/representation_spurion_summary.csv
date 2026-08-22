@@ -1,0 +1,9 @@
+model,parameter_count,bound_or_constraint,max_error_pct,rms_error_pct,interpretation
+Dq_Yk6,6,abs_coeff_le_3,61.4798766,30.9158384,down-sector q projector plus hypercharge kappa fails
+Dq_Yk_Dint7,7,abs_coeff_le_3,47.2743886,25.4022389,one extra down-sector intercept term fails
+Dq_Yk_Dslope7,7,abs_coeff_le_3,12.9430000,5.8758085,one extra down-sector slope term improves substantially but fails
+Dq_Yk_Dslope7,7,abs_coeff_le_5,5.4287221,2.6945181,still fails and hits coefficient bounds
+Dq_Yk_Cint7,7,abs_coeff_le_3,47.5703060,25.4598327,right-handed parity intercept fails
+Dq_Yk_Cslope7,7,abs_coeff_le_3,46.5704473,23.8255902,right-handed parity slope fails
+projectors7,7,abs_coeff_le_3,9.7033880,4.0948196,two independent sector projectors improve but this branch hits bounds
+projectors7,7,q_min_ge_0.5_and_abs_coeff_le_5,0.000000002,0.000000001,two independent up/down projectors fit exactly with natural coefficients and no weak localization

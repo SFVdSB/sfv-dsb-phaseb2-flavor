@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "n_tests": 9,
+  "tests": [
+    {
+      "test": "adjoint multiplicity",
+      "pass": true,
+      "detail": "15+3+3=21"
+    },
+    {
+      "test": "seed dimension",
+      "pass": true,
+      "detail": "1+21=22 internal components"
+    },
+    {
+      "test": "composite Gram",
+      "pass": true,
+      "detail": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          22.0
+        ]
+      ]
+    },
+    {
+      "test": "Gram determinant",
+      "pass": true,
+      "detail": 21.0
+    },
+    {
+      "test": "PS hypercharge gR real",
+      "pass": true,
+      "detail": 0.5230584114817481
+    },
+    {
+      "test": "benchmark suppressive in 1pct window",
+      "pass": true,
+      "detail": {
+        "scenario": "suppression",
+        "c_g": 1.0,
+        "log_interval": 2.6948595729162608,
+        "scale_ratio": 14.803439803439803,
+        "N_eff": 20.601240283839875,
+        "threshold_ratio": 0.981011442087613,
+        "mismatch_pct": -1.898855791238696,
+        "max_flavor_error_pct_interp": 0.8933448719663879
+      }
+    },
+    {
+      "test": "benchmark enhancing outside 1pct window",
+      "pass": true,
+      "detail": {
+        "scenario": "enhancement",
+        "c_g": 1.0,
+        "log_interval": 2.6948595729162608,
+        "scale_ratio": 14.803439803439803,
+        "N_eff": 21.407253258596352,
+        "threshold_ratio": 1.019393012314112,
+        "mismatch_pct": 1.9393012314111946,
+        "max_flavor_error_pct_interp": 1.5601914176909695
+      }
+    },
+    {
+      "test": "current scale ratio below suppressive max",
+      "pass": true,
+      "detail": 31.717518669348603
+    },
+    {
+      "test": "flavor exact N21 below 1pct",
+      "pass": true,
+      "detail": 0.5957124147949688
+    }
+  ]
+}

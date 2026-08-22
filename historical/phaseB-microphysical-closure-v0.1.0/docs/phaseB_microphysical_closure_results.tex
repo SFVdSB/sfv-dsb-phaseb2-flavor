@@ -1,0 +1,169 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,array,microtype}
+\usepackage[hidelinks]{hyperref}
+\title{\textbf{SFV/dSB Microphysical Closure of Chiral Localization}\\\large Phase B v0.1.0 Results, Negative Tests, and Claim Boundary}
+\author{Steven Hoffmann}
+\date{July 18, 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The preceding SFV/dSB chiral-localization project showed that a corrected two-field wall supports nine normalizable chiral zero modes whose exact Higgs overlaps reproduce four quark-mass ratios and three CKM magnitudes at $M_Z$.  That construction used seven calibrated Route-I controls for seven observables.  Phase A then derived a static microphysical dictionary containing vacuum masses and healing lengths, wall-gradient moments, Hessian mixing, portal lengths, transition offsets, and thick-wall tension estimators.  The present Phase B asks whether the seven localization controls can be obtained from that dictionary with fewer independent flavor inputs.  We find one robust 51-wall geometric relation, several accurate constrained reductions, and an exploratory zero-continuous-fit benchmark formula map.  However, the full formula map was inferred after inspection of the calibrated benchmark and is not independently predictive.  Simple universal-charge reductions fail.  The proper conclusion is partial microphysical closure: the scalar wall strongly constrains the localization operator, while an explicit generation symmetry or ultraviolet fermion sector remains necessary to determine flavor charges and Wilson coefficients.
+\end{abstract}
+
+\section{Starting point}
+The canonical wall basis is
+\begin{align}
+B_{Ai}(x)&=q_{Ai}\bigl[O(x)+h_{Ai}E(x)\bigr],\\
+q_{Q_Li}&=1,&h_{Q_Li}&=n_i h_Q,\\
+q_{u_Ri}&=1,&h_{u_Ri}&=h_{u0}+n_i h_{u1},\\
+q_{d_Ri}&=\exp(a_{d0}+n_i a_{d1}),&h_{d_Ri}&=h_{d0}+n_i h_{d1},
+\end{align}
+where $n_i=(-1,0,+1)$.  The seven benchmark controls are
+\begin{equation}
+\bigl(h_Q,h_{u0},h_{u1},a_{d0},a_{d1},h_{d0},h_{d1}\bigr).
+\end{equation}
+The odd wall mode $O$ supplies the asymptotic sign change needed for chirality, while the even core mode $E$ shifts and reshapes the localized profiles.
+
+\section{Structural limitation}
+The bosonic action determines the wall functions and their physical landmarks.  It does not, by itself, assign different charges to the three fermion generations.  A generation-blind operator gives identical profiles within each sector and cannot generate the observed rank and hierarchy.  In effective-field-theory language one may write
+\begin{equation}
+\mathcal M_A(y)=m_{0,A}\mathbf 1+
+ g_{O,A}O(y)Q_{O,A}+g_{E,A}E(y)Q_{E,A}+\cdots .
+\end{equation}
+The wall fixes $O,E$ and their normalization.  The matrices $Q_{O,A},Q_{E,A}$ and the Wilson coefficients $g_{O,A},g_{E,A}$ require an additional flavor principle or ultraviolet fermion theory.  Therefore Phase B can test compression and discover candidate relations, but a complete first-principles derivation cannot follow from the scalar wall alone.
+
+\section{A robust geometric closure relation}
+A particularly clean Phase-A interval is the aligned distance between the total-gradient peak and the point of maximal bulk--brane Hessian mixing:
+\begin{equation}
+L_{\rm lock}=\alpha\left(R_{\rm mix,max}-R_{\rm grad,peak}\right).
+\end{equation}
+At the canonical benchmark,
+\begin{equation}
+a_{d1}^{\rm fit}=0.4870845,
+\qquad
+L_{\rm lock}=0.4879086,
+\end{equation}
+which differ by $0.169\%$.
+
+To test whether this is more than a one-point coincidence, all seven controls were re-fitted independently on each of 51 nearby $X,Y,Z$ wall solutions.  The relation
+\begin{equation}
+\boxed{a_{d1}\simeq L_{\rm lock}}
+\end{equation}
+has correlation $0.96784$, mean absolute relative error $0.633\%$, median error $0.500\%$, and maximum error $2.91\%$ across the full set.  Fixing $a_{d1}=L_{\rm lock}$ and fitting the remaining six controls reproduces all seven flavor observables with maximum error $0.0691\%$.  This is the strongest independently supported Phase-B relation.
+
+\section{Exploratory Phase-A formula map}
+The following dimensionless map was identified after comparing the seven fitted controls with the Phase-A dictionary:
+\begin{align}
+h_Q&=\frac{3}{2I_\Phi},
+&I_\Phi&=\int dr\,(\Phi')^2,\\
+h_{u0}&=\frac{\sqrt\pi}{2\rho},\\
+h_{u1}&=-\frac{1}{3r_{\rm tach,end}},\\
+a_{d0}&=\frac{\xi_{\Phi,T}}{3},\\
+a_{d1}&=\alpha\left(R_{\rm mix,max}-R_{\rm grad,peak}\right),\\
+h_{d0}&=\frac{5}{3}\epsilon_{\rm center},\\
+h_{d1}&=-\frac12 f_{\phi,\rm grad}.
+\end{align}
+Here $\epsilon_{\rm center}$ is the fractional energy excess of the bounce center above the stationary true vacuum and $f_{\phi,\rm grad}$ is the brane field's share of the integrated wall-gradient energy.
+
+At the canonical wall this produces
+\begin{equation}
+(1.9188623,\;0.3759751,\;-0.0333947,\;0.3162116,\;0.4879086,\;0.1043131,\;-0.1480128).
+\end{equation}
+No continuous flavor parameter is then fitted.  Exact chiral profiles and exact Higgs overlaps give the results in Table~\ref{tab:zero-fit}.
+
+\begin{table}[h]
+\centering
+\caption{Zero-continuous-fit exploratory formula model.}
+\label{tab:zero-fit}
+\begin{tabular}{lrr}
+\toprule
+Observable & Target-relative error & Absolute error magnitude\\
+\midrule
+$m_c/m_t$ & $+0.3781\%$ & $0.3781\%$\\
+$m_u/m_t$ & $+0.3314\%$ & $0.3314\%$\\
+$m_s/m_b$ & $-0.5094\%$ & $0.5094\%$\\
+$m_d/m_b$ & $-0.0328\%$ & $0.0328\%$\\
+$|V_{us}|$ & $+0.6005\%$ & $0.6005\%$\\
+$|V_{cb}|$ & $-0.0709\%$ & $0.0709\%$\\
+$|V_{ub}|$ & $-0.2645\%$ & $0.2645\%$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The maximum error is $0.6005\%$ and the RMS error is $0.3682\%$.  Adaptive-quadrature and grid-integral overlap matrices agree at the $10^{-12}$ level.
+
+\section{Controlled reduction hierarchy}
+Table~\ref{tab:models} separates robustly fixed quantities from progressively more speculative formula assignments.
+
+\begin{table}[h]
+\centering
+\caption{Flavor accuracy as Phase-A formulas replace continuous fits.}
+\label{tab:models}
+\begin{tabular}{lrrr}
+\toprule
+Model & Fitted controls & Formula-fixed controls & Maximum error\\
+\midrule
+Original benchmark & 7 & 0 & $<10^{-8}\%$\\
+Fix $a_{d1}$ & 6 & 1 & $0.0691\%$\\
+Fix $a_{d1},h_{d1}$ & 5 & 2 & $0.0800\%$\\
+Fix $h_Q,h_{u0},a_{d1},h_{d1}$ & 3 & 4 & $0.2745\%$\\
+Fix six formula controls & 1 & 6 & $0.4682\%$\\
+Fix all seven & 0 & 7 & $0.6005\%$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The three-fit/four-fixed model is a useful intermediate result.  It reduces the continuous flavor calibration from seven dimensions to three while preserving sub-$0.3\%$ agreement.
+
+\section{Internal holdout diagnostic}
+For the three-fit/four-fixed model, every choice of three calibration observables was tested against the other four.  The unrestricted 35 combinations include ill-conditioned choices that omit an entire sector and consequently fail badly.  Restricting to the 12 balanced choices containing one up-type mass ratio, one down-type mass ratio, and one CKM magnitude gives:
+\begin{itemize}
+\item 10 of 12 held-out sets below $1\%$ maximum error;
+\item median held-out maximum error $0.4234\%$;
+\item worst balanced held-out maximum error $1.3230\%$.
+\end{itemize}
+This is an internal consistency test only.  It is not scientifically blind because the formula family was discovered after the benchmark solution was known.
+
+\section{Chirality and spectral stability}
+The zero-fit formula model retains the physical chiral structure:
+\begin{itemize}
+\item all nine desired operators contain exactly one near-zero mode;
+\item all nine opposite-chirality partners contain no near-zero mode;
+\item the smallest unwanted-sector eigenvalue is $0.650552$.
+\end{itemize}
+Thus the formula replacement does not gain numerical flavor accuracy by destroying the localization mechanism.
+
+\section{Negative tests of compact charge laws}
+Several lower-dimensional universal-charge patterns were optimized directly.  Their best maximum observable errors were:
+\begin{center}
+\begin{tabular}{lr}
+\toprule
+Model & Maximum error\\
+\midrule
+One common slope, four parameters & $122.16\%$\\
+Shared right-handed slope, six parameters & $10.94\%$\\
+Shared right-handed slope with locking fixed, five parameters & $36.46\%$\\
+Charge-weighted common slope, five parameters & $69.76\%$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The failure of these simple models is informative: the observed pattern is not reproduced by merely assigning one universal generation slope to all sectors.  At least one additional sector distinction or flavor spurion is required.
+
+\section{Counterfactual wall variation}
+The frozen seven-formula map was applied without re-fitting to all 51 nearby walls.  It remains close to the benchmark only locally.  By $\pm8\%$ coordinate changes, maximum flavor errors can reach roughly $15\%$ along $X$, $59\%$ along $Y$, and $5.5\%$ along $Z$.  The strong $Y$ dependence is physically plausible because Phase A identified $Y$ as the dominant wall-stiffness and width coordinate.  This calculation should not be read as a failure to preserve the same observed universe under altered microphysics; different wall parameters are different candidate universes.  It does show that the post-hoc formulas are not a universal target-preserving identity and that predictive work must freeze the microphysics before comparison with new data.
+
+\section{Scientific classification}
+Phase B yields three levels of result:
+\begin{enumerate}
+\item \textbf{Supported empirical closure:} $a_{d1}$ is accurately tracked by the independently derived locking interval across 51 walls.
+\item \textbf{Strong benchmark compression:} four Phase-A formula controls plus three calibrated controls reproduce all seven observables within $0.2745\%$.
+\item \textbf{Exploratory zero-fit hypothesis:} seven simple Phase-A formulas reproduce the benchmark within $0.6005\%$ and retain the full chiral spectrum.
+\end{enumerate}
+The third level is surprising and potentially important, but it is post-hoc.  It must be frozen and tested externally before it can support a predictive claim.
+
+\section{Conclusion and next requirement}
+The wall is doing substantially more explanatory work than in the original seven-control fit.  Its stiffness, transition geometry, Hessian rotation, central under-relaxation, and gradient partition naturally supply quantities of the correct size and structure.  Nevertheless, the scalar sector does not determine why the three fermion generations carry the required distinct coefficients.  Full microphysical closure requires the smallest explicit flavor principle capable of generating the remaining charge pattern.  The recommended next step is therefore not another free numerical fit, but a predeclared flavor-spurion or discrete-charge construction tested against an observable not used to design it.
+
+\end{document}

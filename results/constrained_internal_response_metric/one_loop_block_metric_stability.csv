@@ -1,0 +1,4 @@
+sector,multiplicity,M2_running_factor,mu_running_factor,protected_mu_over_M2_factor,radial_charge_renormalization_from_gauge,reason
+SU4,15,1.1578390734390465,1.1578390734390465,1.0,1.0,Gauge running is multiplicative and Sigma-independent; normalized response ratios cancel it.
+SU2L,3,1.0628391194925193,1.0628391194925193,1.0,1.0,Gauge running is multiplicative and Sigma-independent; normalized response ratios cancel it.
+SU2R,3,1.0583768387025303,1.0583768387025303,1.0,1.0,Gauge running is multiplicative and Sigma-independent; normalized response ratios cancel it.

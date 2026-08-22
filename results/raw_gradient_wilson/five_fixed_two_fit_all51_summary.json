@@ -1,0 +1,18 @@
+{
+  "local33": {
+    "count": 33,
+    "mean_max_error_pct": 4.9078156587243615,
+    "median_max_error_pct": 4.426561709673549,
+    "worst_max_error_pct": 10.104179736302775,
+    "below_1pct": 2,
+    "below_2pct": 7
+  },
+  "all51": {
+    "count": 51,
+    "mean_max_error_pct": 7.693587906133929,
+    "median_max_error_pct": 5.646236269470917,
+    "worst_max_error_pct": 46.24397964441413,
+    "below_1pct": 2,
+    "below_2pct": 7
+  }
+}

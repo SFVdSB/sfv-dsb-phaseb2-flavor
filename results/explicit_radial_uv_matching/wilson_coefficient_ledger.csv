@@ -1,0 +1,4 @@
+effective_factor,exact_expression,linear_log_response,fixed_by_canonical_radial_normalization,fixed_by_O22_or_Pati_Salam
+Z0,[mu(R)/M2(R)]/[mu(0)/M2(0)],d_R ln(mu)-d_R ln(M2),False,Only equality across seed components; not absolute derivative
+ZF,[yF(R)/yF(0)]^2,2 d_R ln(yF),False,Representation/multiplicity weights only; not absolute derivative
+common lambda_res,requires d_R ln(mu/M2) = -15 d_R ln(yF)/21 after normalized traces,one relation among otherwise independent Wilson derivatives,False,False

@@ -1,0 +1,95 @@
+{
+  "version": "1.4.0",
+  "radial_mode": {
+    "true_vacuum": [
+      2.357142857142857,
+      0.0
+    ],
+    "bounce_center": [
+      2.041106525798828,
+      -2.736228633233792e-07
+    ],
+    "canonical_displacement_sigma": 0.31603633134414755,
+    "fractional_displacement_u": 0.13407601935807295,
+    "true_hessian_eigenvalues": [
+      1.1112244897959171,
+      25.702833551632658
+    ],
+    "center_hessian_eigenvalues": [
+      0.6942224990843328,
+      19.27261003462612
+    ],
+    "soft_mode_purity_true_basis": 0.9999999999992504,
+    "soft_mode_purity_center_basis": 0.9999999999996547,
+    "center_residual_energy": 0.04830295865462176,
+    "false_true_gap": 0.7717623942013737,
+    "epsilon_exact": 0.06258786255659175,
+    "epsilon_bulk_identity": 0.06258786073096725,
+    "bulk_fraction_of_center_residual": 0.9999999999850637
+  },
+  "canonical_anharmonic_matching": {
+    "V_harmonic": 0.055493974700157545,
+    "V_exact_bulk": 0.048302958653900295,
+    "V_exact_over_V_harmonic": 0.8704180753836536,
+    "lambda_radial_sqrt_Vharm_over_Vexact": 1.0718550277230197,
+    "lambda_radial_closed_form": 1.0718550277230197,
+    "formula": "lambda_radial = sqrt(V_harmonic/V_exact) = 1/(1-u/2)",
+    "interpretation": "Conversion from the true-vacuum harmonic radial amplitude to the exact finite-displacement quartic radial amplitude. This is bounce-derived and uses no flavor observable. Its use as the seed Wilson normalization is a minimal canonical-radial matching principle, not a symmetry theorem."
+  },
+  "all51_identity": {
+    "max_abs_epsilon_identity_error": 2.5075380938321956e-09,
+    "mean_abs_epsilon_identity_error": 1.8306331491540712e-09,
+    "lambda_radial_min": 1.05886078110959,
+    "lambda_radial_max": 1.086548714406964,
+    "lambda_radial_mean": 1.071927403027285
+  },
+  "zero_fit_flavor": {
+    "lambda_res": 1.0718550277230197,
+    "amplitudes": {
+      "Z0": 1.003199637407301,
+      "Z_F": 0.9910952021762901,
+      "weak_inverse_even": 3.5305212765666623,
+      "c_d0": 3.5418176645104364,
+      "c_d1": -0.8742258829626719,
+      "a_d0": 0.26118984307115245,
+      "a_d1": 0.24178194224181165
+    },
+    "controls": [
+      2.8121138392383656,
+      2.9399371955673823,
+      -0.031550603993453406,
+      0.26118984307115245,
+      0.24178194224181165,
+      2.684290482909349,
+      -0.6625626838625215
+    ],
+    "errors_pct": {
+      "ct": -0.6110763268410313,
+      "ut": -0.030470728729536933,
+      "sb": 0.17200771119962877,
+      "db": -0.24908972252863926,
+      "Vus": 0.3544569675256959,
+      "Vcb": -0.14180053883023902,
+      "Vub": 0.5341190181828992
+    },
+    "max_error_pct": 0.6110763268410313,
+    "rms_error_pct": 0.35797153624696554
+  },
+  "comparison": {
+    "unit_lambda_max_error_pct": 0.6320669737503115,
+    "best_rms_fit_lambda": 1.0757295578518313,
+    "best_rms_fit_max_error_pct": 0.6149666833262679,
+    "radial_lambda_relative_to_best_fit_pct": -0.36017697018094763
+  },
+  "claim_boundary": {
+    "exactly_derived": [
+      "The center displacement is a pure true-bulk soft/radial mode to better than 1e-12 in norm fraction.",
+      "epsilon_c=(1-(Phi_c/rho)^2)^2 across all 51 walls to numerical precision.",
+      "The finite-amplitude anharmonic conversion lambda_radial=1/(1-u/2)."
+    ],
+    "conditional": [
+      "Identifying lambda_res with lambda_radial requires the seed threshold to be normalized to the canonical radial displacement rather than an independently normalized composite energy operator.",
+      "The current symmetries allow an independent O(1) Wilson coefficient, so the matching principle is not uniquely forced by symmetry alone."
+    ]
+  }
+}

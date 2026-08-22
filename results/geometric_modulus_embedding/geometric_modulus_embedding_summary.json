@@ -1,0 +1,62 @@
+{
+  "version": "1.6.0",
+  "required_compensator": {
+    "epsilon_c": 0.06258786073096725,
+    "lambda_radial": 1.0718550277230197,
+    "Sigma_required": 0.0670851131989154,
+    "Z0_required": 1.0031996371460659,
+    "ZF_required": 0.9910952028989227
+  },
+  "o4_fluctuation_spectrum": {
+    "ell0_lowest_eigenvalue": -0.09787346607904077,
+    "ell0_second_eigenvalue": 0.021427363333224005,
+    "ell1_lowest_eigenvalue": 0.0001993335335722598,
+    "ell0_negative_corr_translation": 0.9398993662643975,
+    "ell0_negative_corr_dilation": 0.6765634192558593,
+    "ell1_zero_corr_translation": 0.9965182098034816,
+    "residual_breathing_corr_min": 0.6382903422898385,
+    "residual_breathing_corr_max": 0.8440741283317709
+  },
+  "ordinary_embedding_geometry": {
+    "uniform_breathing_metric": "gamma_mn -> exp(2 omega) gamma_mn",
+    "protected_auxiliary_seed_ratio": "mu/M^2 is invariant under the universal measure/canonical rescaling",
+    "trace_average_result": "For O_N=(1/N) sum_A X_A^2, a common geometric rescaling of every X_A rescales O_N by the common field weight, not by 1/N. Normalized traces do not generate 1/21 or 1/15 Weyl charges.",
+    "weyl_pair_exact_match_found": false,
+    "conclusion": "Ordinary normal-displacement/extrinsic-curvature geometry supplies a real breathing mode but does not force the opposite representation-normalized weights +1/21 and -2/15. Curvature portals can reproduce them only with additional sector-specific coefficients."
+  },
+  "numerical_shell_coincidence": {
+    "O4_S3_shell_driver_using_deltaR_equals_u_at_Rmix": 0.06725808651514734,
+    "relative_to_required_pct": 0.25784158061872287,
+    "frozen_flavor_max_error_pct": 0.6138512280324693,
+    "physical_3plus1_worldvolume_d4_analogue_driver": 0.08967744868686311,
+    "d4_relative_to_required_pct": 33.677122107491606,
+    "d4_frozen_flavor_max_error_pct": 0.9730033986987463,
+    "all51_d3_Rmix_mean_abs_relative_error_pct": 4.004874591132643,
+    "all51_d3_Rmix_max_abs_relative_error_pct": 26.089423961599145,
+    "local33_d3_Rmix_mean_abs_relative_error_pct": 2.465268816296258,
+    "local33_d3_Rmix_max_abs_relative_error_pct": 6.028304887748281,
+    "claim_boundary": "The S3 benchmark near-match is numerically interesting but assumes without derivation that the field-space fraction u is a coordinate displacement. It is not stable enough across the 51 walls to establish a geometric law."
+  },
+  "minimal_added_symmetry_candidate": {
+    "ansatz": {
+      "C21": "exp(Sigma/21) I_21",
+      "C15_per_fermion_leg": "exp(-Sigma/15) I_15",
+      "unimodular_constraint": "det(C21) det(C15)=1"
+    },
+    "Sigma": 0.0670851131989154,
+    "Z0": 1.0031996371460659,
+    "fermion_leg_factor": 0.9955376451440311,
+    "ZF_two_legs": 0.9910952028989227,
+    "det_C21": 1.069386493206571,
+    "det_C15": 0.9351156072688817,
+    "det_product": 1.0000000000000024,
+    "interpretation": "O(21) and O(15) isotropy distribute one logarithmic block-volume modulus equally over 21 seed directions and 15 SU(4) directions. Two fermion legs give the factor -2/15. This is an added internal response-space symmetry, not a consequence of ordinary brane embedding geometry."
+  },
+  "scientific_verdict": {
+    "embedding_only": "fails to derive the compensator charges",
+    "breathing_mode_exists": true,
+    "residual_has_substantial_breathing_overlap_but_is_not_identical": true,
+    "internal_unimodular_block_volume_symmetry": "exactly generates +1/21 and -2/15 without compact spacetime dimensions",
+    "remaining_condition": "The internal block-volume modulus must be induced/locked to the existing bounce radial driver Sigma=lambda_radial epsilon_c. That identification is the added geometric-compensator principle; ordinary brane embedding does not force it."
+  }
+}

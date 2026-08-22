@@ -1,0 +1,7 @@
+operator,symmetry,coefficient,fixed_by_multiplicity
+R X0^2,PS singlet,lambda_0,False
+R Tr(X4^2),SU(4) adjoint norm,lambda_4,False
+R Tr(XL^2),SU(2)L adjoint norm,lambda_L,False
+R Tr(XR^2),SU(2)R adjoint norm,lambda_R,False
+R J_wall S,wall-source dressing,eta_0,False
+R J_F S,fermion-source dressing,eta_F,False

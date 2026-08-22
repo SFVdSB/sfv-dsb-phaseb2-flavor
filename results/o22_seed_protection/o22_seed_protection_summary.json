@@ -1,0 +1,74 @@
+{
+  "version": "0.9.0",
+  "conceptual_distinction": {
+    "21": "dimension of the Pati-Salam gauge algebra / number of components in one complete adjoint seed: 15+3+3",
+    "22": "internal seed-field space 1 plus adjoint; not spacetime dimension",
+    "claim_boundary": "Pati-Salam fixes 21 only after the UV theory is assumed to contain one complete adjoint seed. The group does not force that seed to exist."
+  },
+  "o22_boundary_condition": {
+    "field_vector": "X^I=(X0, X4^a, XL^i, XR^j), I=1,...,22",
+    "protected_terms": "1/2 M_X^2 X^I X^I + mu_2 S2 X^I X^I",
+    "controlled_breaking_spurion": "mu_1 S1 X0^2 singles out the singlet direction",
+    "pati_salam_gauging": "gauges the 21-dimensional adjoint subspace and explicitly breaks O(22)_seed"
+  },
+  "matching_inputs": {
+    "Lambda_seed_GeV": 241000000000000.0,
+    "M_seed_match_GeV": 16280000000000.0,
+    "scale_ratio": 14.803439803439803,
+    "log_interval": 2.6948595729162608,
+    "g1_GUT": 0.5438825648791034,
+    "gY": 0.4212896232138685,
+    "g4_from_g3": 0.580379389023194,
+    "gL_from_g2": 0.541853061524504,
+    "gR_from_PS_hypercharge_matching": 0.5230584114817481,
+    "gBL_normalized": 0.7108166801675406,
+    "weighted_C2_g2": 1.1244563411813275,
+    "loop_marker_per_cg": 0.0191892945515655
+  },
+  "leading_log_marker": {
+    "ansatz": "k_a/k0 = exp[s c_g C2(adj_a) g_a^2 ln(Lambda/M)/(16 pi^2)], s=+/-1. This is a controlled viability marker, not the complete model-specific beta function.",
+    "benchmark_cg1_suppression": {
+      "scenario": "suppression",
+      "c_g": 1.0,
+      "log_interval": 2.6948595729162608,
+      "scale_ratio": 14.803439803439803,
+      "N_eff": 20.601240283839875,
+      "threshold_ratio": 0.981011442087613,
+      "mismatch_pct": -1.898855791238696,
+      "max_flavor_error_pct_interp": 0.8933448719663879
+    },
+    "benchmark_cg1_enhancement": {
+      "scenario": "enhancement",
+      "c_g": 1.0,
+      "log_interval": 2.6948595729162608,
+      "scale_ratio": 14.803439803439803,
+      "N_eff": 21.407253258596352,
+      "threshold_ratio": 1.019393012314112,
+      "mismatch_pct": 1.9393012314111946,
+      "max_flavor_error_pct_interp": 1.5601914176909695
+    },
+    "allowed_cg_for_sub1pct": {
+      "suppression_max": 1.282764119655225,
+      "enhancement_max": 0.39539447485039614
+    },
+    "allowed_cg_for_sub0p6pct": {
+      "suppression_max": 0.19893984648814983,
+      "enhancement_max": 0.0
+    },
+    "allowed_scale_ratio_for_cg1_sub1pct": {
+      "suppression_max": 31.717518669348603,
+      "enhancement_max": 2.902384340695237
+    },
+    "interpretation": "For an O(1) suppressive gauge coefficient, the existing SFV interval gives N_eff about 20.60 and interpolated worst flavor error about 0.89%, inside the 1% criterion. An enhancing sign or a substantially larger coefficient requires a shorter interval or additional protection."
+  },
+  "composite_induced_mediator": {
+    "operators": [
+      "O1=X0^2",
+      "O2=X0^2+sum_A X_A^2"
+    ],
+    "leading_susceptibility": "Pi_ab proportional to [[1,1],[1,22]] when all 22 seed propagators share one normalization",
+    "advantage": "A compositeness boundary condition removes an arbitrary independent bare S mass matrix; the desired Gram matrix is the two-point susceptibility of the two seed bilinears.",
+    "remaining_condition": "Equality of the 22 seed propagator kernels at matching, with gauge splitting quantified above."
+  },
+  "verdict": "O(22)_seed is an internal unification symmetry that can protect the common singlet/adjoint threshold at a boundary scale. The existing SFV scale separation is compatible with the 1% flavor tolerance for a leading-log suppressive gauge correction of order unity, but the sign and exact coefficient require a full model-specific RGE. The composite/induced formulation is structurally preferable because it prevents an unrelated bare mediator matrix from spoiling the 21 Gram structure."
+}

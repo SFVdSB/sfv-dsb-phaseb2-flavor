@@ -1,0 +1,6 @@
+{
+  "rotating_basis_with_connection_relative_max_error": 7.104420759018324e-09,
+  "rotating_basis_without_connection_relative_max_error": 0.3872376612697208,
+  "connection_diagonal_is_zero": true,
+  "interpretation": "The real Hessian rotation generates an off-diagonal antisymmetric connection. It is required for basis covariance but is not an independent diagonal scalar potential."
+}

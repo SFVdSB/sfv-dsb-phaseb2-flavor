@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "status": "initial operator-origin audit",
+  "main_positive_results": {
+    "local_kinetic_connection_correlation_with_E": 0.9820386891057449,
+    "Hessian_Berry_connection_correlation_with_E": 0.9248440231288325,
+    "locking_interval_alpha_delta_R": 0.48790861203019914,
+    "locking_interval_rotation_angle_rad": 0.3489402602167696
+  },
+  "main_negative_result": "The frozen seven numerical formulas are strongly basis-dependent and therefore cannot themselves be fundamental Wilson coefficients.  The local operator and canonical normalization must be derived first; effective controls are then outputs.",
+  "recommended_operator_ansatz": "4D-Lorentz-symmetric position-dependent kinetic kernel plus a local kink mass and the Hessian-basis connection; generation dependence enters through a small, separately specified flavor generator/spurion sector."
+}

@@ -1,0 +1,7 @@
+candidate,driver_D,lambda_equivalent_D_over_epsilon,max_error_pct,rms_error_pct,uses_flavor_to_set_coefficient,claim_status
+exploratory_PS_4_over_15_times_chi,0.0667135092664639,1.0659177113151488,0.6051144370274653,0.35820761409959184,False,exploratory group-normalized candidate
+canonical_radial_anharmonic_R,0.0670851131989154,1.0718550277230197,0.611076239128916,0.3579715383806288,False,bounce-derived
+exact_residual_energy_R,0.06258786073096725,1.0,0.6320670849252696,0.3733402423559967,False,bounce-derived
+harmonic_energy_fraction,0.0719055158676254,1.1488732004551157,0.688386392570195,0.37192941265921253,False,bounce-derived
+canonical_displacement_u,0.13407601935807295,2.1422048587727933,2.607838041877364,1.5188676422520613,False,bounce-derived
+lowest_dimension_U1_invariant_chi,0.2501756597492396,3.997191417431808,7.317656425036468,4.02289890133362,False,bounce-derived

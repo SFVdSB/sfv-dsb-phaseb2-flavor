@@ -1,0 +1,17 @@
+{
+  "interpretation": "A local exponential kinetic kernel K_A=K0 exp[-2 eta_A(Phi+r_phi phi)] produces a chiral connection proportional to -Phi'-r_phi phi' after canonical normalization.",
+  "least_squares_coefficients_to_canonical_E": {
+    "minus_dPhi_dy": 0.49239949419026396,
+    "minus_dphi_dy": 1.3806511202036924,
+    "shape_ratio_r_phi": 2.803924732851587
+  },
+  "correlation_with_canonical_E_after_max_normalization": 0.9820386891057449,
+  "relative_rms_error_before_max_normalization": 0.17658440697246838,
+  "hybrid_with_Berry_coefficients": {
+    "minus_dPhi_dy": 0.41292517193593076,
+    "minus_dphi_dy": 1.058809462910839,
+    "abs_theta_prime": 0.29735070776119643
+  },
+  "hybrid_correlation_with_E": 0.9828894349282958,
+  "claim_boundary": "operator-shape evidence only; coefficients and flavor charges are not derived"
+}

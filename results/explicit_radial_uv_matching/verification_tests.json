@@ -1,0 +1,8 @@
+{
+  "chi_squared_equals_epsilon": true,
+  "radial_chi_weight_equals_2u": true,
+  "all51_radial_weight_identity": true,
+  "radial_zero_fit_subpercent": true,
+  "unit_lowest_dimension_portal_not_acceptable": true,
+  "general_action_has_independent_responses": true
+}

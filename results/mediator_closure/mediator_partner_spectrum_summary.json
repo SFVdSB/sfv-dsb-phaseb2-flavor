@@ -1,0 +1,23 @@
+{
+  "singlet_flavon_ratio21_6p": {
+    "desired_profiles_with_exactly_one_near_zero": 9,
+    "opposite_profiles_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.8768745702114678,
+    "minimum_nonzero_desired_eigenvalue": 0.8767586724917813,
+    "total_profiles": 9
+  },
+  "clebsch_5p": {
+    "desired_profiles_with_exactly_one_near_zero": 9,
+    "opposite_profiles_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.8768745702115196,
+    "minimum_nonzero_desired_eigenvalue": 0.8767586724916098,
+    "total_profiles": 9
+  },
+  "two_amplitude_core_clebsch_4p": {
+    "desired_profiles_with_exactly_one_near_zero": 9,
+    "opposite_profiles_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.8768745702114719,
+    "minimum_nonzero_desired_eigenvalue": 0.8767586724917451,
+    "total_profiles": 9
+  }
+}

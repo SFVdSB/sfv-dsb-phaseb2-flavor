@@ -1,0 +1,147 @@
+{
+  "version": "0.8.0",
+  "group_data": {
+    "group": "SU(4)_C x SU(2)_L x SU(2)_R",
+    "adjoint_dimensions": {
+      "SU4": 15,
+      "SU2L": 3,
+      "SU2R": 3
+    },
+    "dim_adjoint_total": 21,
+    "seed_space_dimension_1_plus_adj": 22,
+    "component_level_C2_for_(4,2)": "21/8",
+    "component_level_verdict": "An elementary (4,2) component receives C2=21/8 from gauge dressing, not 21. The exact integer 21 therefore requires a multiplicity/trace threshold, not a bare component Casimir."
+  },
+  "seed_threshold_lagrangian": {
+    "seed_fields": {
+      "X0": "one heavy Pati-Salam singlet seed",
+      "XA": "one complete real adjoint seed X^A, A=1,...,21",
+      "S": "two heavy real scalar mediator coordinates S1,S2"
+    },
+    "renormalizable_seed_lagrangian": "L_seed = 1/2 (D X_A)^2 + 1/2 (d X_0)^2 -1/2 [M_X^2+2 mu S2] X_A X_A -1/2 [M_X^2+2 mu (S1+S2)] X_0^2.",
+    "quadratic_threshold": "Delta V^(2)=1/2 kappa_X S^T [v0 v0^T + dim(G_PS) vA vA^T] S, with v0=(1,1), vA=(0,1).",
+    "general_nonuniversal_threshold": "M_S^2/k0 = [[1,1],[1,1+N_eff]], N_eff=21 kAdj/k0.",
+    "equal_threshold_limit": "kAdj=k0 => N_eff=dim(G_PS)=21 and M_S^2 proportional to [[1,1],[1,22]].",
+    "technical_naturalness": "Equality of the common S2 coupling and seed mass can be imposed by a seed-space O(22)-symmetric boundary condition before Pati-Salam gauging.  Pati-Salam gauge interactions break that equality radiatively, so the continuous tolerance audit quantifies the matching accuracy required."
+  },
+  "incidence_matrix_shape": [
+    22,
+    2
+  ],
+  "gram_matrix": [
+    [
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      22.0
+    ]
+  ],
+  "gram_determinant": 21.0,
+  "exact_N21_contractions": {
+    "N_eff": 21.0,
+    "matrix": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        22.0
+      ]
+    ],
+    "inverse": [
+      [
+        1.0476190476190477,
+        -0.047619047619047616
+      ],
+      [
+        -0.047619047619047616,
+        0.047619047619047616
+      ]
+    ],
+    "sector_source_vector": "r_A=(1,-2 T3R(A))",
+    "sector_factors": {
+      "Q_L": 1.0476190476190477,
+      "u_R": 1.0952380952380953,
+      "d_R": 1.0
+    },
+    "ratios_to_down": {
+      "Q_L": 1.0476190476190477,
+      "u_R": 1.0952380952380953,
+      "d_R": 1.0
+    },
+    "odd_up_path_e2_Minv_e2": 0.047619047619047616,
+    "odd_down_reference": 1.0,
+    "odd_up_over_down": 0.047619047619047616,
+    "determinant": 21.0,
+    "eigenvalues": [
+      0.9524884451355068,
+      22.047511554864492
+    ]
+  },
+  "effective_wall_fermion_lagrangian": {
+    "wall_source": "J_W = mu_W I_G(y) e1, e1=(1,0)",
+    "sector_source": "J_A = y_A (bar Psi_A Psi_A) r_A, r_A=(1,-2 T3R(A))",
+    "integrated_operator": "Delta L_eff = mu_W y_A I_G(y) (bar Psi_A Psi_A) e1^T (M_S^2)^(-1) r_A",
+    "exact_sector_pattern_at_N21": {
+      "d_R": "1",
+      "Q_L": "22/21",
+      "u_R": "23/21"
+    },
+    "family_direction": "A real family spurion F=diag(-1,0,+1) supplies n_i.",
+    "odd_path": "Use the same two mediator coordinates with P_u=(1+2T3R)/2 and P_d=(1-2T3R)/2: the down odd path uses e1^T M^-1 (1,1)=1, while the up odd path uses e2^T M^-1 e2=1/21.",
+    "claim_boundary": "This derives the rational ratios from an explicit local threshold Lagrangian.  It does not yet derive the four absolute amplitudes or prove the O(22)-symmetric seed boundary condition from the SFV action."
+  },
+  "continuous_flavor_tolerance_below_1pct": {
+    "threshold_pct": 1.0,
+    "exists": true,
+    "N_eff_min": 20.49,
+    "N_eff_max": 21.16,
+    "kAdj_over_k0_min": 0.9757142857142856,
+    "kAdj_over_k0_max": 1.0076190476190476,
+    "mismatch_pct_min": -2.4285714285714355,
+    "mismatch_pct_max": 0.7619047619047636,
+    "best_continuous_N_eff": 20.98,
+    "best_continuous_max_error_pct": 0.5475486935108465,
+    "grid_step": 0.00999999999999801
+  },
+  "continuous_flavor_tolerance_below_0p6pct": {
+    "threshold_pct": 0.6,
+    "exists": true,
+    "N_eff_min": 20.92,
+    "N_eff_max": 21.0,
+    "kAdj_over_k0_min": 0.9961904761904763,
+    "kAdj_over_k0_max": 1.0,
+    "mismatch_pct_min": -0.3809523809523707,
+    "mismatch_pct_max": 0.0,
+    "best_continuous_N_eff": 20.98,
+    "best_continuous_max_error_pct": 0.5475486935108465,
+    "grid_step": 0.00999999999999801
+  },
+  "radiative_splitting_order_marker": {
+    "weighted_adjoint_C2": 3.4285714285714284,
+    "formula": "|delta k/k| ~ c_g g_PS^2 Cbar/(16 pi^2) ln(Lambda/M), shown with c_g=1",
+    "claim_boundary": "order-of-magnitude marker only; a complete seed-sector RGE is not yet derived"
+  },
+  "best_grid_row": {
+    "N_eff": 20.98,
+    "threshold_ratio_kAdj_over_k0": 0.9990476190476191,
+    "threshold_mismatch_pct": -0.09523809523809268,
+    "max_error_pct": 0.5475486935108465,
+    "rms_error_pct": 0.3386057477537984,
+    "h_d0": 2.68262815933488,
+    "h_d1": -0.6621337584674439,
+    "a_d0": 0.2614412739844293,
+    "a_d1": 0.24182242165246925,
+    "error_ct_pct": -0.5475486935108465,
+    "error_ut_pct": 0.0027207662072425975,
+    "error_sb_pct": 0.10465818796954185,
+    "error_db_pct": -0.16716794312321426,
+    "error_Vus_pct": 0.41424454984428927,
+    "error_Vcb_pct": 0.009277899209436669,
+    "error_Vub_pct": 0.5405339106315354
+  },
+  "main_conclusion": "A fully local renormalizable seed threshold with one Pati-Salam singlet plus a complete 21-component adjoint generates the mediator Gram matrix [[1,1],[1,22]] at quadratic order.  T3R then generates the 21:22:23 sector offsets, and the same inverse matrix generates the 1:21 odd-slope ratio.  The remaining nontrivial assumption is equality of the singlet and per-adjoint-component threshold kernels; its required accuracy is quantified by the continuous flavor scan."
+}

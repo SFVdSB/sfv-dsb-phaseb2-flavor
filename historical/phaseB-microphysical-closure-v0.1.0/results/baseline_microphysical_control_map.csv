@@ -1,0 +1,8 @@
+control,canonical_fitted,phaseA_formula,relative_difference,formula_definition,status
+h_Q,1.9243768271959274,1.9188623238633342,-0.0028656047270266827,"3/(2 I_Phi), I_Phi=integral (dPhi/dr)^2 dr",post-hoc candidate
+h_u0,0.37591840296783147,0.3759750592829882,0.0001507143962877766,sqrt(pi)/(2 rho),post-hoc candidate
+h_u1,-0.033295237698478884,-0.033394698648989,0.002987242542336954,-1/(3 r_tachyonic_end),post-hoc candidate
+a_d0,0.31709198515056736,0.31621163318178863,-0.0027763299295020527,xi_true_Phi/3,post-hoc candidate
+a_d1,0.48708450408784837,0.48790861203019914,0.001691919852580881,alpha (R_max_mixing - R_total_gradient_peak),51-wall supported candidate
+h_d0,0.10405120245019506,0.10431310972135638,0.002517099898837749,(5/3) times center energy-excess fraction,post-hoc candidate
+h_d1,-0.14850198624291774,-0.1480128221095432,-0.0032939905098264832,-1/2 times brane-gradient fraction,post-hoc candidate

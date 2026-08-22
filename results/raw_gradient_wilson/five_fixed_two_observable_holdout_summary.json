@@ -1,0 +1,17 @@
+{
+  "all21": {
+    "count": 21,
+    "below_1pct": 5,
+    "below_2pct": 14,
+    "median_heldout_max_pct": 1.435442537460263,
+    "worst_heldout_max_pct": 20.157973844631883
+  },
+  "balanced12": {
+    "count": 12,
+    "below_1pct": 4,
+    "below_2pct": 9,
+    "median_heldout_max_pct": 1.3953340469898046,
+    "worst_heldout_max_pct": 4.259637480503065
+  },
+  "warning": "Internal non-blind diagnostic. Rational formulas and branch prior were generated using the full benchmark; this is not a scientific prediction."
+}

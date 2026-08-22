@@ -1,0 +1,13 @@
+window_center,window_width,abs_corr_with_ell0_negative_breathing_mode
+gradient_peak,0.15,0.6382903422898385
+gradient_peak,0.3,0.7124099493392311
+gradient_peak,0.6,0.8187994185581102
+gradient_peak,1.0,0.8440741283317709
+action_peak,0.15,0.7539026910079847
+action_peak,0.3,0.7985002645939085
+action_peak,0.6,0.8404051529293095
+action_peak,1.0,0.8230052300513303
+mixing_peak,0.15,0.7593345034441069
+mixing_peak,0.3,0.8018405297633642
+mixing_peak,0.6,0.8399500807896912
+mixing_peak,1.0,0.8203975485397406

@@ -1,0 +1,16 @@
+{
+  "zero_fit_raw_rational": {
+    "desired_profiles_with_exactly_one_near_zero": 9,
+    "opposite_profiles_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.8768795071744301,
+    "minimum_nonzero_desired_eigenvalue": 0.8768279948833814,
+    "total_profiles": 9
+  },
+  "five_fixed_two_fit": {
+    "desired_profiles_with_exactly_one_near_zero": 9,
+    "opposite_profiles_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.8768795071743914,
+    "minimum_nonzero_desired_eigenvalue": 0.8768279948833588,
+    "total_profiles": 9
+  }
+}

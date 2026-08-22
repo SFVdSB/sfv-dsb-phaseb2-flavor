@@ -1,0 +1,15 @@
+{
+  "ansatz": {
+    "C21": "exp(Sigma/21) I_21",
+    "C15_per_fermion_leg": "exp(-Sigma/15) I_15",
+    "unimodular_constraint": "det(C21) det(C15)=1"
+  },
+  "Sigma": 0.0670851131989154,
+  "Z0": 1.0031996371460659,
+  "fermion_leg_factor": 0.9955376451440311,
+  "ZF_two_legs": 0.9910952028989227,
+  "det_C21": 1.069386493206571,
+  "det_C15": 0.9351156072688817,
+  "det_product": 1.0000000000000024,
+  "interpretation": "O(21) and O(15) isotropy distribute one logarithmic block-volume modulus equally over 21 seed directions and 15 SU(4) directions. Two fermion legs give the factor -2/15. This is an added internal response-space symmetry, not a consequence of ordinary brane embedding geometry."
+}

@@ -1,0 +1,13 @@
+{
+  "definition": "y = y_H + alpha_dr_to_dy * (r - R_peak)",
+  "x_definition": "x = y - y_H = alpha_dr_to_dy * (r - R_peak)",
+  "orientation": "increasing r maps to increasing y",
+  "y_H": 1.02,
+  "s_H": 0.514,
+  "R_peak": 5.860202508437851,
+  "w_FWHM": 1.7517899927739728,
+  "alpha_dr_to_dy": 0.6909375570964031,
+  "left_extension": "constant true-vacuum fields and zero derivatives for x below the radial-domain endpoint",
+  "right_extension": "interpolated full profile, then constant false-vacuum fields if required",
+  "status": "inherited wall-anchored convention; alpha and Higgs geometry varied in robustness tests"
+}

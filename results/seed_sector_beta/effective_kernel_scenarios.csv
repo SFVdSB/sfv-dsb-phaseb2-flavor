@@ -1,0 +1,7 @@
+scenario,kernel_scaling,status,N_eff,interpretation,max_flavor_error_pct,rms_flavor_error_pct
+O22 boundary imposed at matching scale,k_a/k_0=1,protected boundary,21.0,No Pati-Salam running interval between equality boundary and mediator matching.,0.5957126056882367,0.35048222459348294
+source-to-mass-squared protected ratio,mu_a/M_a^2,one-loop gauge protected,21.0,"Because beta_ln(mu)=beta_ln(M^2), the ratio mu/M^2 is unchanged by gauge running at one loop.",0.5957126056882367,0.35048222459348294
+composite derivative susceptibility,mu_a^2/M_a^2,enhancing,23.73123397617085,The one-loop derivative expansion of a scalar bubble has this scaling; charged adjoint blocks are enhanced in the IR.,6.5057358208317595,3.7470579764599616
+inverse-mass tree/auxiliary marker,1/M_a^2,suppressive,18.612325906415997,A tree-level inverse-mass kernel is suppressed because gauge running raises the charged seed masses toward the IR.,5.714543914731096,3.3319448711526007
+zero-momentum loop mass marker,mu_a^2 times renormalized B0(0),scheme/boundary dependent,26.858235379609635,The local S mass term is logarithmically divergent and requires a counterterm; its finite sign and relative threshold are not fixed by the beta function alone.,11.80563762652177,7.2894754012611225
+dimension-six normalized kernel,mu_a^2/M_a^4,one-loop gauge protected,21.0,Gauge factors cancel exactly at this order because M_a^2 and mu_a run identically.,0.5957126056882367,0.35048222459348294

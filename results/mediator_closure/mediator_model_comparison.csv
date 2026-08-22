@@ -1,0 +1,8 @@
+model,n_parameters,max_error_pct,rms_error_pct,success,active_bounds
+one_rank_one_mediator_6p,6,25.547577910012297,19.269403738209885,True,1
+singlet_flavon_ratio21_6p,6,0.09255777277499266,0.04873186139678982,True,0
+singlet_flavon_geometric_6p,6,0.3554502290395112,0.18533207659230008,True,0
+clebsch_5p,5,0.10683157521873543,0.0517628357040021,True,0
+two_amplitude_core_clebsch_4p,4,0.5957124147949688,0.3504822139011199,True,0
+three_parameter_near_miss,3,1.2765571141387988,0.7392779943890673,True,0
+wall_frozen_geometric_4p,4,0.9138317126216711,0.41971887975299305,True,0

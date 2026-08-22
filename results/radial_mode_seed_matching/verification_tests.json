@@ -1,0 +1,10 @@
+{
+  "center_mode_pure_soft_true_basis": true,
+  "center_mode_pure_soft_center_basis": true,
+  "center_residual_bulk_dominated": true,
+  "baseline_radial_energy_identity": true,
+  "all51_radial_energy_identity": true,
+  "closed_form_matches_energy_ratio": true,
+  "radial_lambda_no_fit_below_1pct": true,
+  "radial_lambda_near_best_common_fit": true
+}

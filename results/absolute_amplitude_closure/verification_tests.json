@@ -1,0 +1,9 @@
+{
+  "zero_fit_max_error_below_1pct": true,
+  "shared_zeta_relative_span_below_0p05pct": true,
+  "candidate_zeta_within_0p05pct_of_inferred_mean": true,
+  "all_four_amplitudes_within_0p1pct_at_baseline": true,
+  "desired_9_of_9": true,
+  "opposite_9_of_9": true,
+  "protected_representation_ratios_exact": true
+}

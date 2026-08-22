@@ -1,0 +1,52 @@
+[
+  {
+    "beta": 0.25,
+    "k_geo": 0.5357689938422653,
+    "correlation_with_E": 0.7592396477131955,
+    "relative_shape_residual": 0.7772626408845013,
+    "heavy_norm_fraction": 0.24984988249381196,
+    "scalar_profile_overlap": 0.9691012154678982,
+    "gap_min": 0.5073351313980679,
+    "gap_at_core": 0.56680316729514
+  },
+  {
+    "beta": 0.5,
+    "k_geo": 0.3437528272086064,
+    "correlation_with_E": 0.7901549925128277,
+    "relative_shape_residual": 0.7165396305756379,
+    "heavy_norm_fraction": 0.13452189925273844,
+    "scalar_profile_overlap": 0.9927848631145206,
+    "gap_min": 1.0146702627961357,
+    "gap_at_core": 1.13360633459028
+  },
+  {
+    "beta": 1.0,
+    "k_geo": 0.1991728157055055,
+    "correlation_with_E": 0.8124630969730166,
+    "relative_shape_residual": 0.6721940067031562,
+    "heavy_norm_fraction": 0.05215670462401767,
+    "scalar_profile_overlap": 0.998682473936503,
+    "gap_min": 2.0293405255922714,
+    "gap_at_core": 2.26721266918056
+  },
+  {
+    "beta": 2.0,
+    "k_geo": 0.10725420674421682,
+    "correlation_with_E": 0.8190207105859774,
+    "relative_shape_residual": 0.6607480551211211,
+    "heavy_norm_fraction": 0.015861299650751292,
+    "scalar_profile_overlap": 0.9997485244394495,
+    "gap_min": 4.058681051184543,
+    "gap_at_core": 4.53442533836112
+  },
+  {
+    "beta": 4.0,
+    "k_geo": 0.05556777699796334,
+    "correlation_with_E": 0.8143827986221587,
+    "relative_shape_residual": 0.6733351306325015,
+    "heavy_norm_fraction": 0.004295520310751103,
+    "scalar_profile_overlap": 0.9999437531665607,
+    "gap_min": 8.117362102369086,
+    "gap_at_core": 9.06885067672224
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "version": "1.2.0",
+  "claim_boundary": "The protected 21 representation ratios are inherited from the explicit auxiliary derivation. The four absolute-amplitude formulas are a frozen multiplicity-normalized leading-order matching hypothesis identified after inspecting the benchmark. Their numerical success is not yet an independent loop derivation or blind prediction.",
+  "inputs": {
+    "g_L": 0.541853061524504,
+    "g_R": 0.5230584114817481,
+    "center_energy_excess_fraction": 0.0625878658328138,
+    "m_true_Phi_dimless": 1.0541463322499005,
+    "L_lock": 0.48790861203019914,
+    "Gmax_y": 0.7578850006329678
+  },
+  "candidate_formulas": {
+    "c_d0": "0.5*(g_L^-2+g_R^-2)*(1+epsilon_c/21)",
+    "Z_F": "exp(-2*epsilon_c/15)",
+    "c_d1": "-Z_F/(4*g_L*g_R)",
+    "a_d0": "Z_F*m_true_Phi/4",
+    "a_d1": "Z_F*L_lock/2",
+    "representation_relations": "h_Q=(22/21)h_d0, h_u0=(23/21)h_d0, h_u1=h_d1/21"
+  },
+  "candidate_amplitudes": {
+    "weak_inverse_even": 3.5305212765666623,
+    "Z0": 1.0029803745634673,
+    "Z_F": 0.9916896744856013,
+    "c_d0": 3.541043552375122,
+    "c_d1": -0.8747502554733684,
+    "a_d0": 0.26134650827227357,
+    "a_d1": 0.24192696632147487
+  },
+  "four_parameter_refit_amplitudes": {
+    "c_d0": 3.5417914489120252,
+    "c_d1": -0.8743573764115765,
+    "a_d0": 0.26133958182280853,
+    "a_d1": 0.24186492816470875
+  },
+  "baseline_amplitude_relative_errors_pct": {
+    "c_d0": -0.021116334704951445,
+    "c_d1": 0.04493346455247682,
+    "a_d0": 0.002650363720912985,
+    "a_d1": 0.02564991842217701
+  },
+  "shared_attenuation": {
+    "from_c_d1": 0.9912442740910741,
+    "from_a_d0": 0.9916633917988313,
+    "from_a_d1": 0.9914353721214435,
+    "mean": 0.9914476793371163,
+    "std": 0.00020982972598547356,
+    "relative_span_pct": 0.04227330564104895,
+    "predicted_exp_minus_2eps_over_15": 0.9916896744856013
+  },
+  "zero_fit_flavor": {
+    "controls": [
+      2.8114992137395283,
+      2.9392946325458706,
+      -0.03156952847252965,
+      0.26134650827227357,
+      0.24192696632147487,
+      2.683703794933186,
+      -0.6629600979231226
+    ],
+    "values": {
+      "ct": 0.003664925738659951,
+      "ut": 7.315904601465339e-06,
+      "sb": 0.018792717301634274,
+      "db": 0.0009380953470902341,
+      "Vus": 0.2249091788600978,
+      "Vcb": 0.042153708818474286,
+      "Vub": 0.0039649361288844834
+    },
+    "errors_pct": {
+      "ct": -0.5386443892059001,
+      "ut": 0.07919579207789074,
+      "sb": 0.3621603072605506,
+      "db": -0.2527082251245538,
+      "Vus": 0.2715911101639934,
+      "Vcb": -0.10969474295192683,
+      "Vub": 0.6328966721950158
+    },
+    "max_error_pct": 0.6328966721950158,
+    "rms_error_pct": 0.37374249197110976
+  },
+  "one_fitted_common_attenuation_diagnostic": {
+    "zeta": 0.9913592362340072,
+    "max_error_pct": 0.6006951895612067,
+    "rms_error_pct": 0.37113929691409875
+  },
+  "four_parameter_reference": {
+    "max_error_pct": 0.5957118098017244,
+    "rms_error_pct": 0.3504822264983092
+  },
+  "chiral_spectrum": {
+    "desired_profiles_with_exactly_one_near_zero": 9,
+    "opposite_profiles_with_zero_near_zero": 9,
+    "minimum_opposite_eigenvalue": 0.8768745706669897,
+    "minimum_nonzero_desired_eigenvalue": 0.8767586729458219,
+    "total_profiles": 9
+  },
+  "crosswall_tracking": {
+    "local33": {
+      "c_d0": {
+        "mean_abs_error_pct": 0.47493462340129544,
+        "maximum_abs_error_pct": 1.3573635900800296,
+        "mean_signed_error_pct": -0.013081085438072751
+      },
+      "c_d1": {
+        "mean_abs_error_pct": 0.7451640241814641,
+        "maximum_abs_error_pct": 2.0273498707008897,
+        "mean_signed_error_pct": 0.031525061742759986
+      },
+      "a_d0": {
+        "mean_abs_error_pct": 1.1031965226765916,
+        "maximum_abs_error_pct": 2.768151534892571,
+        "mean_signed_error_pct": 0.0011146323044879459
+      },
+      "a_d1": {
+        "mean_abs_error_pct": 1.3125263195713763,
+        "maximum_abs_error_pct": 2.842854627789737,
+        "mean_signed_error_pct": -0.0012165578162304101
+      }
+    },
+    "all51": {
+      "c_d0": {
+        "mean_abs_error_pct": 0.803420415818938,
+        "maximum_abs_error_pct": 2.9977689211837633,
+        "mean_signed_error_pct": -0.010993515400554814
+      },
+      "c_d1": {
+        "mean_abs_error_pct": 1.2279381114827357,
+        "maximum_abs_error_pct": 5.467862701297932,
+        "mean_signed_error_pct": -0.03309804844256616
+      },
+      "a_d0": {
+        "mean_abs_error_pct": 1.6514311414746587,
+        "maximum_abs_error_pct": 11.354113878641513,
+        "mean_signed_error_pct": -0.03179689999662912
+      },
+      "a_d1": {
+        "mean_abs_error_pct": 2.2182831795312294,
+        "maximum_abs_error_pct": 11.671433518325813,
+        "mean_signed_error_pct": -0.04075222278194813
+      }
+    }
+  },
+  "verification_tests": {
+    "zero_fit_max_error_below_1pct": true,
+    "shared_zeta_relative_span_below_0p05pct": true,
+    "candidate_zeta_within_0p05pct_of_inferred_mean": true,
+    "all_four_amplitudes_within_0p1pct_at_baseline": true,
+    "desired_9_of_9": true,
+    "opposite_9_of_9": true,
+    "protected_representation_ratios_exact": true
+  },
+  "main_conclusion": "At the benchmark, the four free amplitudes collapse to two physically organized normalizations and, under the frozen multiplicity attenuation Z_F=exp(-2 epsilon_c/15), to a zero-continuous-fit flavor realization with sub-percent accuracy. The formulas track the local 33-wall design only at the 0.5-3% amplitude level, so the baseline closure is promising but not yet a universal first-principles law."
+}

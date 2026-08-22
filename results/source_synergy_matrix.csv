@@ -1,0 +1,6 @@
+source,immediate_relevance,use_in_phaseB2,guardrail
+Lorentz violation / Option A,medium,"Keep standard 4D fermion kinetic propagation; use transverse localization and heavy-mode matching logic","Do not add tree-level charged-fermion LIV operators"
+Gauge kinetic normalization Phase A/B,high,"Reuse local thick-wall kernel and canonical-normalization methodology","Minimal-norm coefficients matched to data are methodology, not first-principles predictions"
+Distributed Landau-Zener DM/baryon,high,"Use avoided-crossing and spatially distributed mixing concepts for Hessian-basis rotation","Static flavor localization is not identical to moving-wall transport"
+Strong CP / bulk axion,medium-later,"Reserve SFV phase mode for controlled complex flavor phases and CP tests","Keep current operator real; do not conflate U(1)_F with U(1)_PQ"
+PQ patch/coherence proxy,low-medium,"Possible later method for deriving support of flavor-breaking operator","Current action proxy remains a controlled proxy"

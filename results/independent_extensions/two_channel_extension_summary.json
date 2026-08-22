@@ -1,0 +1,57 @@
+{
+  "ansatz": {
+    "Delta_H_x": "sqrt(lambda_hard-lambda_soft)/alpha",
+    "beta": 1.0,
+    "mass_eigenvalues": [
+      "q O(x)",
+      "q O(x)+Delta_H(x)"
+    ],
+    "connection": "U_H^T dU_H/dx"
+  },
+  "baseline": {
+    "k_geo": 0.199166031543829,
+    "correlation_E": 0.8124927966552392,
+    "relative_shape_residual": 0.6721388862906411,
+    "adiabatic_relative_error": 0.3063535894694712,
+    "heavy_norm_fraction": 0.052155190102535,
+    "scalar_profile_overlap": 0.998682566762366,
+    "gap_min": 2.029359201050474,
+    "gap_at_core": 2.2672126903611485
+  },
+  "crosswall_51": {
+    "count": 51,
+    "k_geo_mean": 0.19918886381314713,
+    "k_geo_std": 0.0021123628510728862,
+    "k_geo_min": 0.1916286745263581,
+    "k_geo_max": 0.2070958895367634,
+    "k_geo_relative_span": 0.0776510027433793,
+    "correlation_E_mean": 0.8124543164955412,
+    "heavy_norm_fraction_mean": 0.05214907889868553,
+    "heavy_norm_fraction_min": 0.0500275959990742,
+    "heavy_norm_fraction_max": 0.0541790492048558,
+    "profile_overlap_mean": 0.998682880391478
+  },
+  "flavor_test": {
+    "route7_refit_light_controls": [
+      1.8906480924,
+      0.3870585849,
+      -0.0347363521,
+      0.3178171518,
+      0.5211432926,
+      0.1189126964,
+      -0.1440470348
+    ],
+    "route7_refit_total_controls": [
+      1.9371333826,
+      0.3753993298,
+      -0.0342742747,
+      0.3208881645,
+      0.514639736,
+      0.1082305729,
+      -0.141744614
+    ],
+    "two_spurion_bound5_max_error_light_pct": 46.0822371809,
+    "two_spurion_bound5_max_error_total_pct": 46.3388890514
+  },
+  "conclusion": "The Hessian connection yields a robust universal core correction but does not generate representation or generation differences in the aligned two-channel ansatz."
+}

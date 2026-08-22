@@ -1,0 +1,196 @@
+{
+  "extension_1_two_channel": {
+    "ansatz": {
+      "Delta_H_x": "sqrt(lambda_hard-lambda_soft)/alpha",
+      "beta": 1.0,
+      "mass_eigenvalues": [
+        "q O(x)",
+        "q O(x)+Delta_H(x)"
+      ],
+      "connection": "U_H^T dU_H/dx"
+    },
+    "baseline": {
+      "k_geo": 0.199166031543829,
+      "correlation_E": 0.8124927966552392,
+      "relative_shape_residual": 0.6721388862906411,
+      "adiabatic_relative_error": 0.3063535894694712,
+      "heavy_norm_fraction": 0.052155190102535,
+      "scalar_profile_overlap": 0.998682566762366,
+      "gap_min": 2.029359201050474,
+      "gap_at_core": 2.2672126903611485
+    },
+    "crosswall_51": {
+      "count": 51,
+      "k_geo_mean": 0.19918886381314713,
+      "k_geo_std": 0.0021123628510728862,
+      "k_geo_min": 0.1916286745263581,
+      "k_geo_max": 0.2070958895367634,
+      "k_geo_relative_span": 0.0776510027433793,
+      "correlation_E_mean": 0.8124543164955412,
+      "heavy_norm_fraction_mean": 0.05214907889868553,
+      "heavy_norm_fraction_min": 0.0500275959990742,
+      "heavy_norm_fraction_max": 0.0541790492048558,
+      "profile_overlap_mean": 0.998682880391478
+    },
+    "flavor_test": {
+      "route7_refit_light_controls": [
+        1.8906480924,
+        0.3870585849,
+        -0.0347363521,
+        0.3178171518,
+        0.5211432926,
+        0.1189126964,
+        -0.1440470348
+      ],
+      "route7_refit_total_controls": [
+        1.9371333826,
+        0.3753993298,
+        -0.0342742747,
+        0.3208881645,
+        0.514639736,
+        0.1082305729,
+        -0.141744614
+      ],
+      "two_spurion_bound5_max_error_light_pct": 46.0822371809,
+      "two_spurion_bound5_max_error_total_pct": 46.3388890514
+    },
+    "conclusion": "The Hessian connection yields a robust universal core correction but does not generate representation or generation differences in the aligned two-channel ansatz."
+  },
+  "extension_2_representation_spurions": {
+    "one_extra_spurion_best_natural_max_error_pct": 5.428722113786022,
+    "one_extra_spurion_status": "improves substantially but fails the 1 percent target",
+    "two_independent_sector_projectors": {
+      "q_floor": 0.5,
+      "max_error_pct": 1.18733911591562e-09,
+      "rms_error_pct": 4.557569245900169e-10,
+      "q_min": 0.8711415546505159,
+      "params": [
+        0.37347201737022795,
+        0.5114228130141526,
+        -1.943606674500031,
+        0.7132306271712257,
+        1.977498890763698,
+        1.0951753687589527,
+        2.2190843841518433
+      ],
+      "errors": [
+        -1.18733911591562e-09,
+        -1.176836406102666e-10,
+        -9.50350909079134e-11,
+        5.4356519285647664e-11,
+        -1.2869705301454815e-10,
+        -3.420597138870107e-11,
+        2.5646151868841116e-11
+      ]
+    },
+    "claim_boundary": "The exact seven-parameter projector fit is a physically allowed algebra, not parameter compression or a blind prediction."
+  },
+  "extension_3_local_core_mass": {
+    "preferred_analytic_invariant": "raw local gradient density (dPhi/dy)^2+(dphi/dy)^2",
+    "preferred_result": {
+      "core": "raw_local_gradient",
+      "max_error_pct": 5.200839758856546e-10,
+      "rms_error_pct": 2.8930124790948284e-10,
+      "controls": [
+        2.9748097239308926,
+        3.191115303149601,
+        -0.03098638280151201,
+        0.25265488283253024,
+        0.23413864783043356,
+        2.8951808354446698,
+        -0.6850396342903919
+      ],
+      "errors": [
+        -2.2050139492080234e-10,
+        -5.200839758856546e-10,
+        -1.6260326418660043e-10,
+        9.745537710159624e-11,
+        -4.41502390202686e-10,
+        1.4430678874077785e-10,
+        1.227684620630498e-10
+      ],
+      "q_min": 1.0,
+      "q_max": 1.627090630371347,
+      "kappa_min": -2.9748097239308926,
+      "kappa_max": 3.7273683805624427,
+      "condition_Yu": 136796.74796819116,
+      "condition_Yd": 1063.2958801487769,
+      "active_bound": false,
+      "correlation_with_canonical_E": 0.8601131176059651,
+      "asymmetry_L2": 0.8684173565977339
+    },
+    "gradient_speed_proxy": {
+      "core": "raw_gradient_speed",
+      "max_error_pct": 1.667110893777135e-10,
+      "rms_error_pct": 7.315903787188246e-11,
+      "controls": [
+        1.7063309607379389,
+        0.22725821134351706,
+        -0.04144673721530155,
+        0.44245766346074955,
+        0.7846769833967202,
+        -0.048767777755668984,
+        -0.09549370783127213
+      ],
+      "errors": [
+        1.667110893777135e-10,
+        -1.9806378759312793e-11,
+        1.1213252548714081e-11,
+        3.7836400679225335e-11,
+        1.1302070390684094e-11,
+        -4.551914400963142e-13,
+        8.715250743307479e-11
+      ],
+      "q_min": 0.7101924282694674,
+      "q_max": 3.4114405366544913,
+      "kappa_min": -1.7063309607379389,
+      "kappa_max": 1.7063309607379389,
+      "condition_Yu": 136796.74796750673,
+      "condition_Yd": 1063.2958801494103,
+      "active_bound": false,
+      "correlation_with_canonical_E": 0.8951544677941901,
+      "asymmetry_L2": 0.5770266704367999
+    },
+    "portal_cross_candidate": {
+      "core": "portal_cross",
+      "max_error_pct": 3.904987444514063e-10,
+      "rms_error_pct": 1.8288456648439974e-10,
+      "controls": [
+        4.26145018229032,
+        0.7536805739199371,
+        -0.030021374181082097,
+        0.19788347518645757,
+        0.2987499599104025,
+        0.4445200481991769,
+        -0.23030909786107553
+      ],
+      "errors": [
+        1.7852386235972517e-11,
+        -3.904987444514063e-10,
+        2.398081733190338e-12,
+        -2.7144952952085077e-11,
+        1.2014833572493444e-10,
+        -9.747758156208874e-12,
+        2.5699442574023124e-10
+      ],
+      "q_min": 0.9040537298115475,
+      "q_max": 1.643180076164198,
+      "kappa_min": -4.26145018229032,
+      "kappa_max": 4.26145018229032,
+      "condition_Yu": 136796.74796801386,
+      "condition_Yd": 1063.295880150101,
+      "active_bound": false,
+      "correlation_with_canonical_E": 0.908780018855282,
+      "asymmetry_L2": 0.42169825037749303
+    },
+    "spectral_audit": {
+      "desired_profiles_with_exactly_one_near_zero": 9,
+      "opposite_profiles_with_zero_near_zero": 9,
+      "minimum_opposite_eigenvalue": 0.8112815549900859,
+      "minimum_nonzero_desired_eigenvalue": 0.8112749828010641,
+      "total_profiles": 9
+    },
+    "status": "success: an explicit local mass invariant removes the need for extreme kinetic anisotropy while retaining exact flavor and chirality"
+  },
+  "overall": "Coupled-channel geometry is real but universal; one extra representation spurion is insufficient; a local gradient mass operator is a successful natural operator origin. Two independent representation projectors are sufficient but not yet predictive."
+}

@@ -1,0 +1,22 @@
+{
+  "scale_GeV": 91.1876,
+  "scheme": "Full Standard Model MSbar",
+  "source_reference": "Huang and Zhou, arXiv:2009.04851, Full SM running masses at M_Z",
+  "masses_GeV": {
+    "mt": 168.26,
+    "mb": 2.839,
+    "mc": 0.620,
+    "ms": 0.05316,
+    "md": 0.00267,
+    "mu": 0.00123
+  },
+  "targets": {
+    "ct": 0.0036847735647212647,
+    "ut": 7.310115297753477e-6,
+    "sb": 0.018724903134906656,
+    "db": 0.0009404719971821064,
+    "Vus": 0.2243,
+    "Vcb": 0.0422,
+    "Vub": 0.00394
+  }
+}

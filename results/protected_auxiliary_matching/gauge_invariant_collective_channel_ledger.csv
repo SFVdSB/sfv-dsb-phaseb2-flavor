@@ -1,0 +1,3 @@
+collective,gauge_object,multiplicity,incidence_S1,incidence_S2,response
+Y0,X0^2,1,1,1,k0=mu0/M0^2
+YAdj,(1/21) Tr_Adj X^2,21,0,1,kAdj=muAdj/MAdj^2

@@ -1,0 +1,105 @@
+{
+  "local33": {
+    "c_Q": {
+      "mean_abs_relative_error_pct": 0.6543198754132307,
+      "max_abs_relative_error_pct": 1.7046715193623108,
+      "baseline_relative_error_pct": -0.4786549837139997,
+      "actual_baseline": 3.684301760659124,
+      "formula_baseline": 3.6666666666666665
+    },
+    "c_u0": {
+      "mean_abs_relative_error_pct": 1.0708829227500463,
+      "max_abs_relative_error_pct": 2.8596742276312703,
+      "baseline_relative_error_pct": -0.2167175067280036,
+      "actual_baseline": 3.8416588806765306,
+      "formula_baseline": 3.8333333333333335
+    },
+    "c_u1": {
+      "mean_abs_relative_error_pct": 0.6469763806569133,
+      "max_abs_relative_error_pct": 1.9284816802832117,
+      "baseline_relative_error_pct": -0.062198203702235055,
+      "actual_baseline": -0.041692598714143644,
+      "formula_baseline": -0.041666666666666664
+    },
+    "a_d0": {
+      "mean_abs_relative_error_pct": 1.475918495839547,
+      "max_abs_relative_error_pct": 1.9679176615731375,
+      "baseline_relative_error_pct": 1.5010440224904498,
+      "actual_baseline": 0.2596392831231185,
+      "formula_baseline": 0.2635365830624751
+    },
+    "a_d1": {
+      "mean_abs_relative_error_pct": 1.2441145071442665,
+      "max_abs_relative_error_pct": 2.9083682170979452,
+      "baseline_relative_error_pct": 0.6870015194629486,
+      "actual_baseline": 0.2422897716026858,
+      "formula_baseline": 0.24395430601509957
+    },
+    "c_d0": {
+      "mean_abs_relative_error_pct": 0.8432049150439984,
+      "max_abs_relative_error_pct": 1.7449296407414217,
+      "baseline_relative_error_pct": -0.4135889971869755,
+      "actual_baseline": 3.5145357330942826,
+      "formula_baseline": 3.5
+    },
+    "c_d1": {
+      "mean_abs_relative_error_pct": 0.6803370772069959,
+      "max_abs_relative_error_pct": 1.4545137829878652,
+      "baseline_relative_error_pct": 0.6430652418805582,
+      "actual_baseline": -0.869409132061974,
+      "formula_baseline": -0.875
+    }
+  },
+  "all51": {
+    "c_Q": {
+      "mean_abs_relative_error_pct": 1.0139547558954167,
+      "max_abs_relative_error_pct": 4.628954921769457,
+      "baseline_relative_error_pct": -0.4786549837139997,
+      "actual_baseline": 3.684301760659124,
+      "formula_baseline": 3.6666666666666665
+    },
+    "c_u0": {
+      "mean_abs_relative_error_pct": 1.9601096672864526,
+      "max_abs_relative_error_pct": 33.42186841913721,
+      "baseline_relative_error_pct": -0.2167175067280036,
+      "actual_baseline": 3.8416588806765306,
+      "formula_baseline": 3.8333333333333335
+    },
+    "c_u1": {
+      "mean_abs_relative_error_pct": 1.136066360093613,
+      "max_abs_relative_error_pct": 9.59725629753736,
+      "baseline_relative_error_pct": -0.062198203702235055,
+      "actual_baseline": -0.041692598714143644,
+      "formula_baseline": -0.041666666666666664
+    },
+    "a_d0": {
+      "mean_abs_relative_error_pct": 1.5083754629466348,
+      "max_abs_relative_error_pct": 3.643271502578027,
+      "baseline_relative_error_pct": 1.5010440224904498,
+      "actual_baseline": 0.2596392831231185,
+      "formula_baseline": 0.2635365830624751
+    },
+    "a_d1": {
+      "mean_abs_relative_error_pct": 1.8363300920189514,
+      "max_abs_relative_error_pct": 10.528359145134536,
+      "baseline_relative_error_pct": 0.6870015194629486,
+      "actual_baseline": 0.2422897716026858,
+      "formula_baseline": 0.24395430601509957
+    },
+    "c_d0": {
+      "mean_abs_relative_error_pct": 1.495381537084843,
+      "max_abs_relative_error_pct": 24.746375482955905,
+      "baseline_relative_error_pct": -0.4135889971869755,
+      "actual_baseline": 3.5145357330942826,
+      "formula_baseline": 3.5
+    },
+    "c_d1": {
+      "mean_abs_relative_error_pct": 0.9399177789539849,
+      "max_abs_relative_error_pct": 8.210146233098637,
+      "baseline_relative_error_pct": 0.6430652418805582,
+      "actual_baseline": -0.869409132061974,
+      "formula_baseline": -0.875
+    }
+  },
+  "interpretation": "The rational/geometric formulas are locally stable around the 33-point design, but extreme +/-8 percent stiffness walls expose nonlinear departures; they are frozen local hypotheses, not universal laws."
+}
