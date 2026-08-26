@@ -1,0 +1,280 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,bm,booktabs,array,microtype,hyperref,xurl}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\newcommand{\SFV}{SFV/dSB}
+\newcommand{\PS}{Pati--Salam}
+\newcommand{\MSbar}{\overline{\mathrm{MS}}}
+\newcommand{\GitHubURL}{https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor}
+\newcommand{\OldDOI}{10.5281/zenodo.22059294}
+\title{\textbf{O(4) Bounce-Encoded Daughter Flavor in SFV/dSB}\\[0.35em]
+\large Phase B2 v2.0.0: Dimensional Correction, Matrix-Origin Theorem, and Conditional Daughter-EFT Closure}
+\author{Steven Hoffmann\\Independent Researcher}
+\date{26 August 2026}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Phase B2 v1.7.0 reported a reproducible quark-flavor construction on a corrected $O(4)$ scalar-wall background with a frozen seven-observable benchmark whose maximum relative discrepancy is $0.6111\%$ and RMS discrepancy is $0.3580\%$. The numerical result, the Pati--Salam multiplicity structure $15+3+3=21$, the protected Gram matrix $\bigl(\begin{smallmatrix}1&1\\1&22\end{smallmatrix}\bigr)$, the rational relations $22/21$, $23/21$, $1/21$, and the bounce-derived response $\Sigma_{\mathcal B}=0.0670851132$ are unchanged here. What is corrected is the physical interpretation of the historical one-dimensional flavor coordinate. A dimensional audit shows that it should not be regarded as an independent fifth spacetime direction, nor should the quark sector be interpreted as permanently localized on a $2+1$ de Sitter wall and subsequently holographically lifted. Instead, the same radial mathematics admits a four-dimensional one-bounce interpretation: the $O(4)$ saddle generates family-dependent radial response functions entering a branch-conditioned $3+1$ daughter flavor kernel. We derive the primitive all-pair family tensor conditionally from permutation symmetry and a single primitive collective family channel, yielding $P_{\bf1}=\mathbf 1\mathbf 1^T/3$. Distinct up- and down-sector radial dressings then generate full-rank noncommuting Yukawa kernels and CKM mixing. We further formulate the Phase-B2 response variables as global reduced matching coordinates of the one-bounce functional; their saddle values become fixed daughter-EFT coupling data rather than local fields requiring a memory mechanism. The result is a dimensional correction and conditional effective closure of the published Phase-B2 flavor construction, not a new fit and not a blind first-principles prediction of the unextended two-scalar action.
+\end{abstract}
+
+\section{Purpose and relation to Phase B2 v1.7.0}
+The published Phase B2 v1.7.0 release \cite{HoffmannPhaseB2} developed an explicit operator-origin chain for a quark-flavor benchmark built on a corrected $O(4)$ scalar background. That release should remain part of the scientific record. The present v2.0.0 update does not alter its numerical benchmark. It corrects the spacetime interpretation and makes explicit two structural assumptions that were hidden by the historical localization language.
+
+The core published result remains
+\begin{equation}
+\max |\Delta O/O|=0.6110760483\%,\qquad
+\mathrm{RMS}=0.3579715048\%,
+\end{equation}
+for
+\begin{equation}
+\left\{\frac{m_c}{m_t},\frac{m_u}{m_t},\frac{m_s}{m_b},\frac{m_d}{m_b},|V_{us}|,|V_{cb}|,|V_{ub}|\right\}.
+\end{equation}
+No observable target, wall profile, Pati--Salam ratio, bounce response factor, or final benchmark value is retuned in v2.0.0.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{p{0.29\linewidth}p{0.29\linewidth}p{0.32\linewidth}}
+\toprule
+\textbf{Unchanged} & \textbf{Superseded} & \textbf{New in v2.0.0}\\
+\midrule
+$O(4)$ background and radial profiles & independent fifth-dimensional flavor coordinate & intrinsic $3+1$ daughter-quark ontology\\
+$21=15+3+3$ seed multiplicity & permanent $2+1$ wall quarks & 4D one-bounce radial form factor\\
+$22/21,23/21,1/21$ & $2+1\to3+1$ flavor lift & $S_3+$ single-channel derivation of $P_{\bf1}$\\
+$\Sigma_{\mathcal B},Z_0,Z_F$ & ordinary primordial high-scale Yukawa boundary condition & global reduced daughter-EFT matching\\
+0.6111\% benchmark & local late-time response-memory interpretation & explicit future-FP firewalls\\
+\bottomrule
+\end{tabular}
+\caption{Scientific status of the v2.0.0 correction.}
+\end{table}
+
+\section{Corrected spacetime ontology}
+Vacuum decay is naturally described semiclassically by an $O(4)$ Euclidean saddle \cite{Coleman1977,CallanColeman1977}. Write the Euclidean relative-coordinate geometry schematically as
+\begin{equation}
+ ds_E^2=dr^2+\rho^2(r)d\Omega_3^2.
+\end{equation}
+The radial coordinate $r$ is part of the four-dimensional Euclidean tunneling geometry. It is not an additional fifth coordinate.
+
+After analytic continuation, the wall is a timelike codimension-one hypersurface with an induced $dS_3$ geometry embedded in a $3+1$ Lorentzian daughter spacetime. Quarks are intrinsic fields of the daughter host. The $dS_3$ wall may organize the early cosmological state, but it is not the permanent home of the quark flavor sector.
+
+This distinction resolves the central dimensional conflict found in the post-publication audit: the same coordinate cannot simultaneously be the radial coordinate of the $O(4)$ Euclidean saddle and an independent fifth spacetime direction.
+
+\section{The historical overlap as a four-dimensional one-bounce kernel}
+Let $\mathcal B_X(x)=\mathcal B(x-X)$ denote a bounce centered at the Euclidean collective coordinate $X^\mu$. The one-bounce contribution to a generating functional contains
+\begin{equation}
+ Z_1[J]\sim e^{-B}\int d^4X\,{\cal N}_{\mathcal B}\,e^{-W[J;\mathcal B_X]}.
+\end{equation}
+For a three-point $QHu$ contribution, integration over the bounce center produces
+\begin{equation}
+\int d^4X\,e^{i(p_Q+p_H+p_u)\cdot X}
+=(2\pi)^4\delta^{(4)}(p_Q+p_H+p_u),
+\end{equation}
+restoring ordinary four-dimensional momentum conservation.
+
+The remaining relative-coordinate integral is reduced by $O(4)$ symmetry. After angular projection and external-leg/geometric amputation, define radial response functions $f_{A_i}(r)$ for $A\in\{Q,u,d\}$. The effective one-bounce flavor form factors take the same mathematical form used historically:
+\begin{equation}
+(K_u)_{ij}\propto\int dr\,f_{Q_i}(r)H(r)f_{u_j}(r),
+\end{equation}
+\begin{equation}
+(K_d)_{ij}\propto\int dr\,f_{Q_i}(r)H(r)f_{d_j}(r).
+\end{equation}
+Thus the one-dimensional overlap survives, but its physical interpretation changes: it is a radial form factor of a four-dimensional tunneling configuration, not a wavefunction overlap along a fifth dimension.
+
+\section{Frozen Phase-B2 radial response data}
+The v1.7 construction organizes each family response through
+\begin{equation}
+B_{A_i}(r)=q_{A_i}\left[O(r)+h_{A_i}C(r)\right],
+\end{equation}
+with a universal Hessian-channel response factor and normalized profiles
+\begin{equation}
+f_{A_i}(r)\propto {\cal E}_{\rm Hess}(r)
+\exp\!\left[-\int^r B_{A_i}(s)ds\right].
+\end{equation}
+The complete Pati--Salam adjoint multiplicity
+\begin{equation}
+15+3+3=21
+\end{equation}
+produces the protected Gram structure
+\begin{equation}
+\widehat M=\begin{pmatrix}1&1\\1&22\end{pmatrix}
+\end{equation}
+and the frozen sector relations
+\begin{equation}
+\frac{h_Q}{h_{d0}}=\frac{22}{21},\qquad
+\frac{h_{u0}}{h_{d0}}=\frac{23}{21},\qquad
+\frac{h_{u1}}{h_{d1}}=\frac1{21}.
+\end{equation}
+The group-theoretic origin of the Pati--Salam organization follows the standard $SU(4)_C\times SU(2)_L\times SU(2)_R$ construction \cite{PatiSalam1974}.
+
+The bounce supplies the dimensionless radial driver
+\begin{equation}
+\boxed{\Sigma_{\mathcal B}=2\left(1-\frac{\Phi_c}{\rho}\right)^2\left(1+\frac{\Phi_c}{\rho}\right)=0.0670851132,}
+\end{equation}
+and the constrained response construction gives
+\begin{equation}
+Z_0=e^{\Sigma_{\mathcal B}/21},\qquad
+Z_F=e^{-2\Sigma_{\mathcal B}/15}.
+\end{equation}
+These numerical structures are unchanged in v2.0.0.
+
+\section{Matrix-origin theorem: the primitive family singlet}
+The post-publication audit exposed a hidden assumption in the historical all-pair overlap formula. In intrinsic $3+1$ language, a primitive Higgs family tensor must be specified. Let the three families transform under the natural permutation representation of $S_3$. A real primitive family tensor $P$ invariant under all family permutations satisfies
+\begin{equation}
+R(g)^T P R(g)=P,
+\qquad g\in S_3.
+\end{equation}
+The most general solution is
+\begin{equation}
+P=aI_3+bJ_3,
+\end{equation}
+where $J_{ij}=1$. Equivalently, the family space decomposes as
+\begin{equation}
+{\bf3}_{\rm perm}={\bf1}\oplus{\bf2},
+\end{equation}
+with singlet projector
+\begin{equation}
+P_{\bf1}=\frac13J_3=\frac13{\bf1}{\bf1}^T,
+\qquad {\bf1}=(1,1,1)^T.
+\end{equation}
+$S_3$ symmetry alone permits both singlet and doublet primitive channels. The additional minimal condition is that the symmetric-stage Higgs sector contains only one primitive collective family channel, i.e. the primitive tensor has rank one. Since $aI+bJ$ has two degenerate doublet eigenvalues $a$, rank one requires $a=0$. Absorbing the remaining overall coefficient into the sector-wide Yukawa normalization yields
+\begin{equation}
+\boxed{P=P_{\bf1}=\frac13J_3.}
+\end{equation}
+This contains no new continuous flavor fit parameter.
+
+The frozen Phase-B2 family-breaking direction
+\begin{equation}
+{\bf n}=(-1,0,+1)^T
+\end{equation}
+is orthogonal to the singlet,
+\begin{equation}
+{\bf1}^T{\bf n}=0,
+\end{equation}
+and therefore lies naturally in the $S_3$ doublet subspace. This organizes the construction as a primitive family-symmetric Higgs channel plus bounce-conditioned symmetry-breaking radial dressing.
+
+\section{Full Yukawa kernels and CKM mixing}
+Define
+\begin{equation}
+D_A(r)=\operatorname{diag}(f_{A1}(r),f_{A2}(r),f_{A3}(r)).
+\end{equation}
+The corrected matrix formula is
+\begin{equation}
+\boxed{K_u[\mathcal B]={\cal N}_u\int dr\,H(r)D_Q(r)P_{\bf1}D_u(r),}
+\end{equation}
+\begin{equation}
+\boxed{K_d[\mathcal B]={\cal N}_d\int dr\,H(r)D_Q(r)P_{\bf1}D_d(r).}
+\end{equation}
+At fixed $r$, the integrand is rank one, but the family response vectors rotate in relative weight across the bounce. A continuous sum of such outer products can therefore have rank three.
+
+The counterfactual is sharp. If the primitive tensor were $P=I_3$, then $D_QPD_u$ and $D_QPD_d$ remain diagonal for every $r$, so $K_u$ and $K_d$ are simultaneously diagonal and $V_{\rm CKM}=I$. Thus the democratic singlet primitive vertex is not decorative: it is the matrix structure that permits the differential radial response to become physical mixing.
+
+Because the frozen up- and down-sector responses differ,
+\begin{equation}
+D_u(r)\neq D_d(r),
+\end{equation}
+the left Hermitian products need not commute,
+\begin{equation}
+[K_uK_u^\dagger,K_dK_d^\dagger]\neq0,
+\end{equation}
+producing nontrivial CKM mixing.
+
+\section{Daughter-EFT inheritance as reduced matching}
+A second post-publication issue was persistence. If the response variables are interpreted as local fields tracking the instantaneous scalar configuration, the bounce-derived response vanishes when the local field settles into the true vacuum. That local-memory interpretation is therefore rejected.
+
+The v1.7 response completion is instead frozen in v2.0.0 as a reduced matching construction. Let
+\begin{equation}
+C_{21}=e^{A/21}I_{21},\qquad
+C_{15}=e^{B/15}I_{15},
+\end{equation}
+with reduced response potential
+\begin{equation}
+V_{\rm resp}
+=\frac{\Lambda_U^4}{2}(A+B)^2
++\frac{\Lambda_L^4}{2}\left[\frac{A-B}{2}-\Sigma_{\mathcal B}\right]^2
++V_{\rm shape}.
+\end{equation}
+Treat $A$ and $B$ as finite-dimensional global response coordinates in the one-bounce matching functional,
+\begin{equation}
+{\cal Z}_{\mathcal B}[J]
+=\int dA\,dB\,e^{-S_{\rm resp}(A,B;\Sigma_{\mathcal B})}
+{\cal Z}_{3+1}[J;A,B,\mathcal B].
+\end{equation}
+For positive stiffnesses the reduced saddle is
+\begin{equation}
+\boxed{A_\star=\Sigma_{\mathcal B},\qquad B_\star=-\Sigma_{\mathcal B}.}
+\end{equation}
+After integrating out the reduced variables, their saddle values enter the daughter effective action as constants. There is no subsequent local equation forcing $A_\star$ or $B_\star$ to relax with the true-vacuum scalar value.
+
+The conditional matching statement is therefore
+\begin{equation}
+\boxed{
+Y^{\rm ren}_{u,d}(\mu_0|\mathcal B)
+={\cal Z}_{\rm ext}^{-1/2}(\mu_0)
+K^{\rm 1PI}_{u,d}[\mathcal B;\mu_0]
+{\cal Z}_{\rm ext}^{-1/2}(\mu_0),}
+\end{equation}
+with appropriate left-, right-, and Higgs-leg factors understood. At other scales the daughter matrices undergo ordinary $3+1$ renormalization-group evolution.
+
+This is distinct from the rejected interpretation in which the Phase-B2 matrix is taken to be an ordinary Yukawa boundary condition at a primordial scale near $10^{13}$--$10^{14}$ GeV and subsequently run down. The $M_Z$ benchmark used in Phase B2 is a renormalization reporting convention, not a cosmic flavor-creation time.
+
+\section{Why a settled intrinsic $3+1$ derivation missed the flavor structure}
+The corrected ontology explains the earlier direct-$3+1$ obstruction. A calculation performed only in the homogeneous post-nucleation true vacuum sees the settled local field values and a family-diagonal local basis. It does not reconstruct the nonperturbative bounce-conditioned radial response after those data have already been integrated into daughter Wilson coefficients.
+
+Thus the failure of a purely settled-interior derivation is not evidence that the quarks must permanently live on the wall. Rather, the relevant flavor information is supplied in the nucleation/matching problem and subsequently appears as intrinsic $3+1$ couplings.
+
+\section{Claim boundary and remaining first-principles targets}
+The strongest defensible classification is
+\begin{equation}
+\boxed{\text{conditionally closed effective flavor theorem}.}
+\end{equation}
+The following are retained as future first-principles targets rather than hidden assumptions:
+\begin{enumerate}
+\item derive the microscopic origin of exactly three visible families and the permutation carrier;
+\item derive the absence of a primitive family-doublet Higgs channel rather than assume the one-collective-channel condition;
+\item derive the reduced global response sector directly from the microscopic SFV/dSB action;
+\item complete the Euclidean-to-Lorentzian 1PI matching and counterterm analysis;
+\item derive the absolute top and bottom Yukawa normalizations;
+\item extend the real-amplitude construction to the CKM CP phase and, separately, to leptons.
+\end{enumerate}
+No future first-principles attempt is permitted to retune the frozen Phase-B2 numerical architecture merely to make these derivations easier. A microscopic contradiction is a falsification gate.
+
+\section{Relation to the two-phase cosmology}
+The corrected flavor ontology does not require the daughter interior to replace the $dS_3$ wall as the cosmological organizing structure. Two questions are separated:
+\begin{enumerate}
+\item where visible quarks and their Yukawa couplings live;
+\item what structure controls the early cosmological state and the later handoff.
+\end{enumerate}
+Intrinsic $3+1$ daughter quarks can coexist with a codimension-one $dS_3$ wall that controls early-state support, transport, and handoff. The present correction therefore does not by itself reopen the frozen dark-energy or dark-matter architecture.
+
+\section{Conclusion}
+Phase B2 v2.0.0 leaves the published flavor mathematics and benchmark unchanged while replacing an inconsistent spacetime interpretation with a dimensionally coherent one. The historical radial overlap is reclassified as a four-dimensional one-bounce flavor form factor. A permutation-symmetric primitive family sector with one collective channel yields the family-singlet projector $P_{\bf1}=J/3$, while the O(4) bounce supplies family-dependent radial dressing. The resulting integrated kernels can be full rank and noncommuting, producing the same mass-ratio and CKM structure reported in v1.7.0. The response variables are interpreted as global reduced matching coordinates, so the bounce-conditioned response enters the intrinsic $3+1$ daughter EFT without invoking a local memory field.
+
+The main scientific correction is therefore conceptual rather than numerical:
+\begin{equation}
+\boxed{
+\text{$O(4)$ bounce-encoded radial flavor response}
+\longrightarrow
+\text{daughter-inherited intrinsic $3+1$ Yukawa structure}.}
+\end{equation}
+The construction remains conditional at the family-carrier and reduced-matching levels and is not claimed as a blind first-principles prediction of the unextended action.
+
+\section*{Reproducibility and version history}
+The source repository is available at \url{\GitHubURL}. The original Phase B2 v1.7.0 Zenodo record is \url{https://doi.org/\OldDOI}. The present v2.0.0 release should be deposited as a new version of that Zenodo record so that both the historical version and the correction remain citable.
+
+\begin{thebibliography}{9}
+\bibitem{HoffmannPhaseB2}
+S. Hoffmann, \emph{Pati--Salam Seed Multiplicity and a Constrained Internal-Response Metric for Quark Flavor in SFV/dSB: Phase B2 v1.7.0}, Zenodo, 2026, DOI: \href{https://doi.org/10.5281/zenodo.22059294}{10.5281/zenodo.22059294}.
+
+\bibitem{Coleman1977}
+S. Coleman, ``The Fate of the False Vacuum. 1. Semiclassical Theory,'' \emph{Phys. Rev. D} \textbf{15}, 2929 (1977).
+
+\bibitem{CallanColeman1977}
+C. G. Callan Jr. and S. Coleman, ``The Fate of the False Vacuum. 2. First Quantum Corrections,'' \emph{Phys. Rev. D} \textbf{16}, 1762 (1977).
+
+\bibitem{PatiSalam1974}
+J. C. Pati and A. Salam, ``Lepton Number as the Fourth Color,'' \emph{Phys. Rev. D} \textbf{10}, 275 (1974).
+\end{thebibliography}
+
+\end{document}
