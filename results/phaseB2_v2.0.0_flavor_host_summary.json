@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "classification": "dimensional correction and conditional effective closure",
+  "numerical_baseline_changed": false,
+  "phaseB2_v1p7": {
+    "max_error_pct": 0.6110760482679778,
+    "rms_error_pct": 0.3579715048082065,
+    "zenodo_doi": "10.5281/zenodo.22059294"
+  },
+  "frozen_ontology": {
+    "O4_coordinate": "4D Euclidean relative radial coordinate",
+    "wall": "2+1 dS3 codimension-one phase boundary",
+    "quarks": "intrinsic 3+1 daughter fields",
+    "flavor": "O4-bounce encoded and daughter inherited"
+  },
+  "matrix_theorem": {
+    "family_symmetry": "S3 permutation carrier",
+    "minimal_condition": "one primitive collective family channel / rank one",
+    "projector": "P1 = J3/3",
+    "phaseB2_breaking_direction": "(-1,0,+1)",
+    "new_continuous_flavor_parameters": 0
+  },
+  "inheritance": {
+    "interpretation": "global reduced one-bounce matching variables",
+    "response_saddle": "A*=Sigma_B, B*=-Sigma_B",
+    "local_memory_field_required": false
+  },
+  "retired_interpretations": [
+    "independent fifth-dimensional flavor localization",
+    "permanent 2+1 wall quarks",
+    "2+1-to-3+1 holographic flavor lift",
+    "ordinary primordial high-scale Yukawa boundary condition",
+    "late-time local scalar memory"
+  ],
+  "status": "CONDITIONALLY CLOSED AND FROZEN"
+}
