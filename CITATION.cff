@@ -1,19 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this release, please cite the Phase B2 v1.7.0 paper and repository record."
-title: "SFV/dSB Phase B2: Pati-Salam Flavor Operator Origin and Constrained Response-Metric Completion"
-version: 1.7.0
-doi: 10.5281/zenodo.22059294
+message: "Please cite the Phase B2 v2.0.0 correction release. The v2 Zenodo DOI will be added after the new-version deposit is published."
+title: "SFV/dSB Phase B2 v2.0.0: O(4) Bounce-Encoded Daughter Flavor - Dimensional Correction and Conditional Closure"
+version: 2.0.0
 repository-code: "https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor"
-url: "https://doi.org/10.5281/zenodo.22059294"
-date-released: 2026-08-22
+date-released: 2026-08-26
 authors:
   - family-names: Hoffmann
     given-names: Steven
 keywords:
   - quark flavor
-  - Pati-Salam
-  - chiral localization
   - O(4) bounce
+  - Pati-Salam
+  - CKM matrix
+  - flavor hierarchy
+  - S3 family symmetry
   - effective field theory
-  - CKM
+  - vacuum decay
+  - daughter universe
   - reproducible research
