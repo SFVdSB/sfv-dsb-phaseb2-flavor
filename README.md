@@ -6,6 +6,18 @@ This repository contains the reproducible SFV/dSB Phase B2 quark-flavor construc
 
 **The published Phase B2 v1.7 numerical benchmark is unchanged.** The v2.0.0 update corrects the interpretation of the historical radial flavor calculation and freezes a dimensionally consistent intrinsic-3+1 daughter-flavor theorem.
 
+## Publication and provenance
+
+The Flavor work has distinct scientific layers that should not be conflated:
+
+- **Phase B2 v1.7.0** — historical numerical/operator-origin publication; Zenodo DOI `10.5281/zenodo.22059294`.
+- **FLAVOR-HOST-0Z frozen v1.0.0** — internal post-publication dimensional/host audit and theorem freeze. It does not retune the v1.7 benchmark.
+- **Phase B2 v2.0.0** — current public dimensional correction and conditional daughter-flavor theorem; Zenodo DOI `10.5281/zenodo.22113999`.
+
+The v1.7 publication remains the numerical/operator-origin record. The v2.0 publication should be used for the corrected spacetime embedding, matrix-origin theorem, and daughter-EFT inheritance statement.
+
+See `PROVENANCE_AND_ARCHIVE_MAP.md` for the detailed authority map and version rules.
+
 ### Unchanged numerical result
 
 The v1.7 construction remains frozen:
@@ -111,10 +123,12 @@ The following interpretations are retired:
 - treating the Phase-B2 matrix as an ordinary primordial `10^13-10^14 GeV` Yukawa boundary condition;
 - treating the late-time local scalar value as a persistent flavor-memory source.
 
-## Paper
+## Papers
 
-- `paper/phaseB2_v1.7.0_paper.tex` / `.pdf` - historical numerical/operator-origin publication
-- `paper/phaseB2_v2.0.0_correction.tex` - v2 dimensional correction and conditional daughter-flavor theorem
+- `paper/phaseB2_v1.7.0_paper.tex` / `.pdf` — historical numerical/operator-origin publication.
+- `paper/phaseB2_v2.0.0_correction.tex` — source for the v2 dimensional correction and conditional daughter-flavor theorem. The authoritative published v2 PDF is archived on Zenodo DOI `10.5281/zenodo.22113999`.
+
+The v2 manuscript source was prepared before the Zenodo deposit and therefore contains release-preparation wording such as “should be deposited.” That wording is retained as publication provenance; the DOI above is the current publication identifier.
 
 ## Reproduce the unchanged v1.7 numerical benchmark
 
@@ -136,7 +150,7 @@ max flavor error = 0.6110760482679778 %
 
 - GitHub: https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor
 - Phase B2 v1.7 Zenodo DOI: https://doi.org/10.5281/zenodo.22059294
-- Phase B2 v2.0 Zenodo DOI: pending new-version deposit
+- Phase B2 v2.0 Zenodo DOI: https://doi.org/10.5281/zenodo.22113999
 
 ## License
 

@@ -1,7 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite the Phase B2 v2.0.0 correction release. The v2 Zenodo DOI will be added after the new-version deposit is published."
+message: "Please cite the Phase B2 v2.0.0 correction release for the corrected spacetime embedding and daughter-flavor theorem. Cite v1.7.0 separately when referring specifically to the historical numerical/operator-origin publication."
 title: "SFV/dSB Phase B2 v2.0.0: O(4) Bounce-Encoded Daughter Flavor - Dimensional Correction and Conditional Closure"
 version: 2.0.0
+doi: 10.5281/zenodo.22113999
+url: "https://doi.org/10.5281/zenodo.22113999"
 repository-code: "https://github.com/SFVdSB/sfv-dsb-phaseb2-flavor"
 date-released: 2026-08-26
 authors:
